@@ -36,6 +36,4 @@ hide_title: 'false'
     - If the Type does not match, Deployment will be stopped
 
 
-<a href="imgdeploy/Deployimg014.png" target="_blank"><img src="imgdeploy/Deployimg014.png" width="500"></img></a>    
-
-###### (Click Image to Enlarge)
+![Deployimg014](/imgdeploy/Deployimg014.png)  

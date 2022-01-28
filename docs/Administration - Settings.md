@@ -17,8 +17,6 @@ hide_title: 'false'
 
 ![Deployimg012](/imgdeploy/Deployimg012.png)
 
-###### (Click Image to Enlarge)
-
 * **Update Properties Allowed**
     - Defines whether or not Global Property Values can be updated during the Deploy process
 

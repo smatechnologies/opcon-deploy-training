@@ -15,8 +15,6 @@ hide_title: 'false'
 
 ![Deployimg006](/imgdeploy/Deployimg006.png)
 
-###### (Click Images to Enlarge)
-
 * Server Definition Requirements
     - Defined Port Number for the Deploy Server 
     - Defined Port Number for the OpCon-API server associated with the OpCon System

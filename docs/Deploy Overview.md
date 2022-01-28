@@ -5,7 +5,6 @@ hide_title: 'false'
 
 ## Deploy Overview
 
-
 * Opcon Deploy is a Change Management compliance application that deploys Schedule definitions between OpCon environments in a controlled and consistent manner
 
 * Utilizes a central repository that contains:
@@ -26,9 +25,6 @@ hide_title: 'false'
     - Provides **Batch Deployment** capability allowing deployments to be scheduled for future dates and times
 
 ![Deployimg002](/imgdeploy/Deployimg002.png)
-
-###### (Click Images to Enlarge)
-
 
 ### Server Communication
 

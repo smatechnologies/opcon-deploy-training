@@ -15,8 +15,6 @@ hide_title: 'false'
 
 ![Deployimg004](/imgdeploy/Deployimg004.png)
 
-###### (Click Images to Enlarge)
-
 ### Administration - Users
 
 * Deploy requires User definitions to manage processes

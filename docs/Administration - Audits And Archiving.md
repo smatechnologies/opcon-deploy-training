@@ -16,8 +16,6 @@ hide_title: 'false'
 
 ![Deployimg013](/imgdeploy/Deployimg013.png)
 
-###### (Click Image to Enlarge)
-
 * Audit Categories
     - Deployment
     - Package
