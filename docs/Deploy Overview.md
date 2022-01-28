@@ -25,8 +25,7 @@ hide_title: 'false'
     - Provides rollback capabilities to quickly restore a deployment to a previous stable version
     - Provides **Batch Deployment** capability allowing deployments to be scheduled for future dates and times
 
-
-<a href="imgdeploy/Deployimg002.png" target="_blank"><img src="imgdeploy/Deployimg002.png" width="500"></img></a>
+![Deployimg002](/imgdeploy/Deployimg002.png)
 
 ###### (Click Images to Enlarge)
 
@@ -40,4 +39,5 @@ hide_title: 'false'
 * Servers are associated with **Types** which determine the Users with access to the Server via User Roles
     - Servers are mapped to specified OpCon systems
 
-<a href="imgdeploy/Deployimg003.png" target="_blank"><img src="imgdeploy/Deployimg003.png" width="500"></img></a>
+![Deployimg003](/imgdeploy/Deployimg003.png)
+

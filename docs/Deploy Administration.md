@@ -13,7 +13,7 @@ hide_title: 'false'
     - **Audits**
     - **Settings**
 
-<a href="imgdeploy/Deployimg004.png" target="_blank"><img src="imgdeploy/Deployimg004.png" width="500"></img></a>
+![Deployimg004](/imgdeploy/Deployimg004.png)
 
 ###### (Click Images to Enlarge)
 
@@ -46,7 +46,7 @@ hide_title: 'false'
 
 ### User Management
 
-<a href="imgdeploy/Deployimg005.png" target="_blank"><img src="imgdeploy/Deployimg005.png" width="500"></img></a>
+![Deployimg005](/imgdeploy/Deployimg005.png)
 
 * The User Management Screen allows User Definitions to be created, updated, or removed
 

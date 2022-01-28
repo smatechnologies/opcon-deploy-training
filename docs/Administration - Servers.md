@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Server Definition Requirements
 
-<a href="imgdeploy/Deployimg006.png" target="_blank"><img src="imgdeploy/Deployimg006.png" width="500"></img></a>
+![Deployimg006](/imgdeploy/Deployimg006.png)
 
 ###### (Click Images to Enlarge)
 
@@ -44,11 +44,11 @@ hide_title: 'false'
 
 * Multiple Definitions can be assigned by Double-Clicking each desired item
 
-<a href="imgdeploy/Deployimg007.png" target="_blank"><img src="imgdeploy/Deployimg007.png" width="500"></img></a>
+![Deployimg007](/imgdeploy/Deployimg007.png)
 
 * Contents of the Definition can be viewed using Right-Click
 
-<a href="imgdeploy/Deployimg008.png" target="_blank"><img src="imgdeploy/Deployimg008.png" width="500"></img></a>
+![Deployimg008](/imgdeploy/Deployimg008.png)
 
 ### SAP Server Support
 
@@ -62,13 +62,13 @@ hide_title: 'false'
     - **SAP External User** (Same as SAP User)
     - **Password** (SAP User Password in plain text which will be encrypted by the software)
 
-<a href="imgdeploy/Deployimg009.png" target="_blank"><img src="imgdeploy/Deployimg009.png" width="500"></img></a>
+![Deployimg009](/imgdeploy/Deployimg009.png)
 
-<a href="imgdeploy/Deployimg010.png" target="_blank"><img src="imgdeploy/Deployimg010.png" width="500"></img></a>
+![Deployimg010](/imgdeploy/Deployimg010.png)
 
 ### Batch Schedule Server
 
-<a href="imgdeploy/Deployimg011.png" target="_blank"><img src="imgdeploy/Deployimg011.png" width="500"></img></a>
+![Deployimg011](/imgdeploy/Deployimg011.png)
 
 * The BatchScheduleServer is a special server Definition used to drive Batch Deployment
 * Deploy uses the OpCon-API to add a Job to the BATCH-DEPLOY Schedule to perform future deployment

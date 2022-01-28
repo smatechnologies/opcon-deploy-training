@@ -15,7 +15,7 @@ hide_title: 'false'
 
 ### Global Rules
 
-<a href="imgdeploy/Deployimg012.png" target="_blank"><img src="imgdeploy/Deployimg012.png" width="500"></img></a>
+![Deployimg012](/imgdeploy/Deployimg012.png)
 
 ###### (Click Image to Enlarge)
 
