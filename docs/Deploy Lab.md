@@ -35,9 +35,7 @@ At the start of the exercises from this training:
 
 * Once Deployed, use **Enterprise Manager** on the ```OpCon-Prod``` Environment to ensure all changes have been made as expected
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_Lab.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>

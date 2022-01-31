@@ -14,12 +14,10 @@ Use the ```Windows Authentication``` Login to Create Transformation Rules in the
   - Transform the ```OpCon-Dev``` machine to ```OpCon-QA```
   - Transform the ```Susevm1``` machine to ```Susevm```
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreateTransformationRules.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

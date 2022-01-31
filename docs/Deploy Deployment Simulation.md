@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deployment - Simulation
 
-<a href="imgdeploy/Deployimg066.png" target="_blank"><img src="imgdeploy/Deployimg066.png" width="600"></img></a>
+![Deployimg066](/imgdeploy/Deployimg066.png)
 
 ###### (Click Images to Enlarge)
 
@@ -57,10 +57,10 @@ hide_title: 'false'
     * Job Machine Feature Requirements Check
     * Dependent Job Check
 
-<a href="imgdeploy/Deployimg067.png" target="_blank"><img src="imgdeploy/Deployimg067.png" width="500"></img></a>    
+![Deployimg067](/imgdeploy/Deployimg067.png) 
 
 * If an error is encountered, the font color of the Report Header will be **Red**
     * If Definitions mismatch, the differences will be displayed
     * If there are missing items, they will be displayed within the expected session
 
-<a href="imgdeploy/Deployimg068.png" target="_blank"><img src="imgdeploy/Deployimg068.png" width="500"></img></a>
+![Deployimg068](/imgdeploy/Deployimg068.png)

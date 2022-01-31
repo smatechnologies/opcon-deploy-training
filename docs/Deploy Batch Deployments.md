@@ -5,11 +5,11 @@ hide_title: 'false'
 
 ## Deployment - Batch Deployments
 
-<a href="imgdeploy/Deployimg069.png" target="_blank"><img src="imgdeploy/Deployimg069.png" width="500"></img></a>
+![Deployimg069](/imgdeploy/Deployimg069.png)
 
 ###### (Click Images to Enlarge)
 
-<a href="imgdeploy/Deployimg070.png" target="_blank"><img src="imgdeploy/Deployimg070.png" width="600"></img></a>
+![Deployimg070](/imgdeploy/Deployimg070.png)
 
 * Batch Deployment provides the capability to Schedule Deployment functions into the future using the ```Batch.SMAOpConDeployClient``` Program
     * Requires that the ```BatchScheduleServer``` is configured correctly in OpCon Deploy
@@ -23,9 +23,9 @@ hide_title: 'false'
 
 * The User must select the Date and Time for the Batch Deployment
 
-<a href="imgdeploy/Deployimg071.png" target="_blank"><img src="imgdeploy/Deployimg071.png" width="500"></img></a>
+![Deployimg071](/imgdeploy/Deployimg071.png)
 
 * _Password is required_
 * This submits an entry into the Deployment Table indicating a future Deployment
 
-<a href="imgdeploy/Deployimg072.png" target="_blank"><img src="imgdeploy/Deployimg072.png" width="500"></img></a>
+![Deployimg072](/imgdeploy/Deployimg072.png)

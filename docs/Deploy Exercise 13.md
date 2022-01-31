@@ -19,12 +19,10 @@ Log In to Enterprise Manager with the ```OpCon-QA``` Environment to:
 - Check that the Deployment occurred 
 - Check that the Transformation Rules were applied
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_DeployPackage.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

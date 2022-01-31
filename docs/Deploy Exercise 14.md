@@ -13,12 +13,10 @@ Using the ```DeployTeamLeader``` Log in, Batch Deploy a Schedule and Verify the 
   * Use the ```Dev-to-QA-Machines``` Transformation Rule
 * Verify that the Jobs in the Schedule have the correct Machine assigned
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BatchDeployment.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

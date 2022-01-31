@@ -7,7 +7,7 @@ hide_title: 'false'
 
 * The Browse Function makes it possible for OpCon Deploy Users to view information about Deployments
 
-<a href="imgdeploy/Deployimg073.png" target="_blank"><img src="imgdeploy/Deployimg073.png" width="500"></img></a>
+![Deployimg073](/imgdeploy/Deployimg073.png)
 
 * Information can be filtered by:
     * **Schedule Name**
@@ -17,7 +17,7 @@ hide_title: 'false'
     * **OpCon Deploy User**
     * **Date Range**
 
-<a href="imgdeploy/Deployimg074.png" target="_blank"><img src="imgdeploy/Deployimg074.png" width="500"></img></a>
+![Deployimg074](/imgdeploy/Deployimg074.png)
 
 * Information Displayed:
     * **Name** (Schedule, Package, or Script)
@@ -28,7 +28,7 @@ hide_title: 'false'
     * **Description** (Text enteredd during Deploy process)
     * **User that performed the Deployment** and **When**
 
-<a href="imgdeploy/Deployimg075.png" target="_blank"><img src="imgdeploy/Deployimg075.png" width="500"></img></a>
+![Deployimg075](/imgdeploy/Deployimg075.png)
 
 * Actions can be performed on the Deployment Information Screen by Right*Clicking the Record and selectiong an Action
     * **View Definion**
@@ -40,8 +40,8 @@ hide_title: 'false'
     * **Delete the Deployment**
         * Removes the Definition from the System
         
-<a href="imgdeploy/Deployimg076.png" target="_blank"><img src="imgdeploy/Deployimg076.png" width="500"></img></a>
+![Deployimg076](/imgdeploy/Deployimg076.png)
 
-<a href="imgdeploy/Deployimg078.png" target="_blank"><img src="imgdeploy/Deployimg078.png" width="500"></img></a>
+![Deployimg078](/imgdeploy/Deployimg078.png)
 
-<a href="imgdeploy/Deployimg077.png" target="_blank"><img src="imgdeploy/Deployimg077.png" width="500"></img></a>
+![Deployimg077](/imgdeploy/Deployimg077.png)

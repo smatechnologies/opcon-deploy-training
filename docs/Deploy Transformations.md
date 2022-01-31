@@ -24,7 +24,7 @@ hide_title: 'false'
 * Transformation Rules are defined using JSON format
     * The JSON file contains both required paramaters and optional parameters based on the TagID
 
-<a href="imgdeploy/Deployimg047.png" target="_blank"><img src="imgdeploy/Deployimg047.png" width="500"></img></a>
+![Deployimg047(/imgdeploy/Deployimg047.png)
 
 ###### (Click Image to Enlarge)
 
