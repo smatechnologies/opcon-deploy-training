@@ -9,9 +9,7 @@ hide_title: 'false'
     * A Default set of Transformation Rules can be Defined that can be applied every time the Package is Deployed
     * Each time a Package Definition is changed, a **New** Version is created
 
-<a href="imgdeploy/Deployimg042.png" target="_blank"><img src="imgdeploy/Deployimg042.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Deployimg042](/imgdeploy/Deployimg042.png)
 
 * To create a New Package, the **Add** button is selcted and required Values entered
     * To Edit a Package, the Package Name is selected from the drop-down list and required Values modified
@@ -23,23 +21,23 @@ hide_title: 'false'
 
 * The **Select one or more Rules** Dialog Screen:
 
-<a href="imgdeploy/Deployimg043.png" target="_blank"><img src="imgdeploy/Deployimg043.png" width="500"></img></a>
+![Deployimg043](/imgdeploy/Deployimg043.png)
 
 *  Multiple Definitions can be assigned by double-clicking on an item in the Upper Table
 *  Multiple Definitions can be removed by double-clicking on an intem in the Lower Table
 * Contents of the Definition can be viewed by right-clicking and selecting **View Definition**
 
-<a href="imgdeploy/Deployimg044.png" target="_blank"><img src="imgdeploy/Deployimg044.png" width="500"></img></a>
+![Deployimg044](/imgdeploy/Deployimg044.png)
 
 * Schedules can be associated with the Package
     * The **Edit** button next to **Schedules** can be used to Add or Change Schedules
 
 * The **Select one or more Schedules** Dialog Screen:
 
-<a href="imgdeploy/Deployimg045.png" target="_blank"><img src="imgdeploy/Deployimg045.png" width="500"></img></a>
+![Deployimg045](/imgdeploy/Deployimg045.png)
 
 * Multiple Definitions can be assigned by double-clicking on an item in the Upper Table
 * Multiple Definitions can be removed by double-clicking on an item in the Lower Table
 * Contents of the Definition can be viewed by right-clicking and selecting **View Definition**
 
-<a href="imgdeploy/Deployimg046.png" target="_blank"><img src="imgdeploy/Deployimg046.png" width="500"></img></a>
+![Deployimg046](/imgdeploy/Deployimg046.png)

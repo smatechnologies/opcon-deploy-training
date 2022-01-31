@@ -13,12 +13,11 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 - Search for the word **name** within the file
 - Choose one for keyword to search for practice
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BrowseSchedules.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
+
 
 <details>
 

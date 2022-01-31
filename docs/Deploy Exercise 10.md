@@ -13,12 +13,10 @@ Use the ```DeployTeamLeader``` Login to Create a Package in the Deploy Client
     - Use the **HR Import** and **HR Import Processing** Schedules in the Package
   - Verify that the Package has been created in the **View or Edit Packages** Screen
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreatePackage.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

@@ -16,12 +16,10 @@ Check and Update Deploy Global Preferences
   - Update Schedule Instance Properties Allowed
   - Delete Schedule from Development System After Import
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_GlobalPreferences.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

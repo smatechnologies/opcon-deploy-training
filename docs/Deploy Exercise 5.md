@@ -9,12 +9,10 @@ hide_title: 'false'
 
 Successfully Import Two Scripts into the OpCon Deploy System
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_ImportScripts.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

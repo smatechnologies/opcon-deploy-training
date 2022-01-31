@@ -12,12 +12,10 @@ Use the Windows Authentication User to Check Audit records for:
 - Windows Authentication (```az-win10-deploy\SMAUSER```) User 
 - ```DeployTeamLeader``` User
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CheckAuditRecords.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

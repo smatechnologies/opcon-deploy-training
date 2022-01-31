@@ -11,12 +11,10 @@ Create two Users within the Deploy Client
 
 - Create a User that utilizes Windows Authentication and a User that does NOT utilize Windows Authentication
   
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreateUserIDs.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

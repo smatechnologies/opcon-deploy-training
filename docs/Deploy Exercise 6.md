@@ -9,12 +9,10 @@ hide_title: 'false'
 
 Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BrowseScripts.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

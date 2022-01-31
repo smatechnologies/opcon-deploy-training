@@ -12,12 +12,10 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 - Verify first that two Scripts do not exist in the ```OpCon-QA``` Enterprise Manager profile
 - After Deployment, Verify that the two Scripts are now visible in the ```OpCon-QA``` Enterprise Manager profile
 
-<div>
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_ScriptDeployment.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 
