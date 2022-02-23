@@ -27,7 +27,7 @@ At the start of the exercises from this training:
 
 ##### Lab Instructions: 
 
-:::note
+:::note note
 
 Remember that in this ecosystem, the ```OpCon-Prod``` Environment in Enterprise Manager uses the same **Machine Name** as the ```BatchScheduleServer```, which is ```OpConBatchDB```
 

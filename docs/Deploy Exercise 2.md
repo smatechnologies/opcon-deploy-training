@@ -73,7 +73,7 @@ Your browser does not support the video tag.
 11.	If the server connection was **successful** click Save
 12.	If the server connection was **not successful** review the instructions or ask the Trainer for assistance
 
-:::note 
+:::note  note
 
 The port information for BatchScheduleServer will be the same as the OpCon-Prod Server
 
