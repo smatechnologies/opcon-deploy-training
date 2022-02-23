@@ -15,9 +15,9 @@ At the start of the exercises from this training:
 
 * As part of this **LAB**, various changes will be made to the ```OpCon-QA``` Environment 
     * These changes will be imported back into the **Deploy** database and deployed to the ```OpCon-Prod``` Environment 
-    * During the deployment process, further changes will be made via a Transformation Rule and Auto*Build options for **Production**
+    * During the deployment process, further changes will be made via a Transformation Rule and AutoBuild options for **Production**
  
-:::note note
+:::note
 
 Remember that in this ecosystem, the ```OpCon-Prod``` Environment in Enterprise Manager uses the same **Machine Name** as the ```BatchScheduleServer```, which is ```OpConBatchDB```
 
