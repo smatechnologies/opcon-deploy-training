@@ -27,6 +27,15 @@ At the start of the exercises from this training:
 
 ##### Lab Instructions: 
 
+:::note
+
+Remember that in this ecosystem, the ```OpCon-Prod``` Environment in Enterprise Manager uses the same **Machine Name** as the ```BatchScheduleServer```, which is ```OpConBatchDB```
+
+(So when a Transformation Rule is made, it should read as ```OpCon-QA``` ---> ```OpConBatchDB```)
+
+:::
+
+
 * Change the Jobs in the ```OpCon-QA``` environment using Enterprise Manager such that the  **Congo Inventory Reports** jobs: **Legos**, **Levis**, **Nerf**, **Nike**, **Smartphones** and **Xbox** all use the parameter ```-t25``` on the command line
     * Import the changed Schedule into the **Deploy** database so the newer Version can be deployed to the ```OpCon-Prod``` Environment
 
