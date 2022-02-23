@@ -17,6 +17,14 @@ At the start of the exercises from this training:
     * These changes will be imported back into the **Deploy** database and deployed to the ```OpCon-Prod``` Environment 
     * During the deployment process, further changes will be made via a Transformation Rule and Auto*Build options for **Production**
 
+ :::warning note
+
+ The ```OpCon-Prod``` Environment utilizes the same machine as the ```BatchScheduleServer``` Environment - so when creating a Transformation Rule the notation should be:
+
+ ```OpCon-QA``` ---> ```OpConBatchDB```   
+
+:::
+
 ##### Lab Instructions: 
 
 * Change the Jobs in the ```OpCon-QA``` environment using Enterprise Manager such that the  **Congo Inventory Reports** jobs: **Legos**, **Levis**, **Nerf**, **Nike**, **Smartphones** and **Xbox** all use the parameter ```-t25``` on the command line
@@ -35,7 +43,10 @@ At the start of the exercises from this training:
 
 * Once Deployed, use **Enterprise Manager** on the ```OpCon-Prod``` Environment to ensure all changes have been made as expected
 
+
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_Lab.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
