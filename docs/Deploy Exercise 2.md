@@ -63,7 +63,7 @@ Your browser does not support the video tag.
 3.	From the **Server Type** dropdown list select **Production**
 4.	Check the checkbox that **Allow Transformation Rules** has been selected
 5.	In the **Server Address** text box add the server IP address of ```az-win10-deploy```
-6.	In the **Server Port** text box enter the port number used by Deploy which is ```9040```
+6.	In the **Server Port** text box enter the port number used by Deploy which is ```9011```
 7.	Check that the checkbox for **Using TLS** is selected
 8.	In the **OpCon API Port** text box, enter the **OpCon API Port Number** which is ```443```
 9. Check that the checkbox for **Using TLS** is selected
@@ -84,7 +84,7 @@ The port information for BatchScheduleServer will be the same as the OpCon-Prod 
 3. From the **Server Type** dropdown list select **Production**
 4. Check the checkbox that **Allow Transformation Rules** has been selected
 5. In the **Server Address** text box add the server ```az-win10-deploy```
-6. In the **Server Port** text box enter the port number used by Deploy which is ```9040```
+6. In the **Server Port** text box enter the port number used by Deploy which is ```9011```
 7. Check that the checkbox for **Using TLS** is selected
 8. In the **OpCon API Port** text box, enter the **OpCon API Port Number** which is ```443```
 9. Check that the checkbox for **Using TLS** is selected
