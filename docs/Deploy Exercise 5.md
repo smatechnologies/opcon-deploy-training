@@ -18,7 +18,7 @@ Your browser does not support the video tag.
 
 <summary>Click for Step-By-Step Instructions</summary>
 
-1.	Open the Deploy Client using the **Administration User**
+1.	Open the Deploy Client using the **Windows Authentication User**
 2.	Go to the **Scripts** section and click on the **Import** link - the **Select a Server** screen will appear
 3.	From the **Select OpCon Server** dropdown select the ```OpCon-Dev``` Server
 4.	Click the **Next** button and the **Select One or More Scripts to Import** screen will open
