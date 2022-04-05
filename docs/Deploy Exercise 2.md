@@ -15,10 +15,12 @@ Create Four Server Connections Within the Deploy Client
   - Production (OpCon-Prod)
   - Batch Schedule Server (BatchScheduleServer)
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreateServers.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
 
 <details>
 
