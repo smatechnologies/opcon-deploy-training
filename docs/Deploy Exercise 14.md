@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objective:
 
-Using the ```DeployTeamLeader``` Log in, Batch Deploy a Schedule and Verify the Results
+Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the Results
 
 * Batch Deploy the **Congo Inventory Management** Schedule to the ```OpCon-QA``` Server
   * Use the ```Dev-to-QA-Machines``` Transformation Rule
@@ -24,7 +24,7 @@ Your browser does not support the video tag.
 
 #### This exercise will select a schedule to be deployed and set a batch deployment to run at a specific date and time
 
-1.	Log in in to the Deploy Client Interface using the ```DeployTeamLeader``` Login 
+1.	Open the Deploy Client using the **Administration User**
 2.	Go to the **Deployments** section and click on the **Deploy** link to open the **Select a Deployment Type** window
 3.	Click on the **Schedule** button to open the **Select a Schedule to Deploy** window
 4.	Select the Schedule ```Congo Inventory Management``` - Available Versions for that Schedule will appear in the bottom half of the screen

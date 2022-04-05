@@ -7,10 +7,10 @@ hide_title: 'false'
 
 ##### Objective: 
 
+* During this **LAB**, use the **Administration User**
+
 At the start of the exercises from this training: 
 
-* Two different Users were created for the Deploy environment 
-    * During this **LAB**, a specific **User ID** previously created may be needed to perform certain functions
 * **Congo Online Retail** Schedules created in the ```OpCon-Dev``` Environment were moved to the ```OpCon-QA``` Environment 
 
 * As part of this **LAB**, various changes will be made to the ```OpCon-QA``` Environment 

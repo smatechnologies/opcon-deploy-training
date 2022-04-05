@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objective:
 
-Deploy a Package to the ```OpCon-QA``` Environment 
+Deploy a Package to the ```OpCon-QA``` Environment with the **Adminstration User**
 
 - Deploy the ```Congo HR Package``` to the ```OpCon-QA``` Server
 - Include the ```Dev-to-QA-Machines``` Transformation Rule 
@@ -28,7 +28,7 @@ Your browser does not support the video tag.
 
 <summary>Click for Step-By-Step Instructions</summary>
 
-1.	Log in to the Deploy Client Interface using the ```DeployTeamLeader``` Login
+1.	Open the Deploy Client using the **Administration User**
 2.	Go to **Deployments** and click the Deploy link to open the **Select a Deployment Type** window
 3.	Click on the **Package** button to open the **Select a Package to Deploy** window
 4.	Click on the Package you created previously - ```Congo HR Package``` - it should be visible in the **Package List**

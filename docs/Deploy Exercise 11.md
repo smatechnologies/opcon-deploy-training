@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objective:
 
-Use the ```Windows Authentication``` Login to Create Transformation Rules in the Deploy Client
+Use the **Administration User** Login to Create Transformation Rules in the Deploy Client
 
 - Create a Rule named ```Dev-to-QA-Machines```
 - Within the Rule, create two ```Job: Machine Name``` Transformations
@@ -25,7 +25,7 @@ Your browser does not support the video tag.
 
 #### Create a simple Transformation Rule that will allow you to change Machine Names in Jobs from Schedules imported from the OpConTraining Environment to Machines available in the OpCon-Dev Environment when Deploying to the OpCon-Dev Environment
 
-1.	Open the Deploy Client and check Use Windows Authentication to log in in with the ```az-win10-deploy\SMAUSER``` login
+1.	Open the Deploy Client using the **Administration User**
 2.  Click on the **Create/Edit** link in the **Transformation Rules** section
 3.	Select the **Add** button to enable the ability to enter information into the various text boxes
 4.	Give the Transformation Rule a name by typing ```Dev-to-QA-Machines``` in the **Name** text box

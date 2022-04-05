@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objective:
 
-Import 5 Schedules from the ```OpCon-Dev``` Server using the ```DeployTeamLeader``` Login
+Import 5 Schedules from the ```OpCon-Dev``` Server
 
 * Import the following Schedules:
   
@@ -29,7 +29,7 @@ Your browser does not support the video tag.
 
 #### Import Schedules from the OpCon-Training Environment
 
-1.	Open the Deploy Client and log in in with the ```DeployTeamLeader``` login
+1.	Open the Deploy Client using the **Administration User**
 2.	Go to the **Schedules** section and click on the **Import** link - This should open the **Select a Server** screen
 3.	From the **Select OpCon server** dropdown list select the ```OpCon-Dev``` Server
 4.	Click the **Next** button to open the **Select a Schedule to Import** screen

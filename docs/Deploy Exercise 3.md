@@ -27,7 +27,7 @@ Your browser does not support the video tag.
 
 #### Check And Update (As Necessary) Deploy Global Preferences
 
-1.	Open the Deploy Client using the **Administration User** login previously created
+1.	Open the Deploy Client using the **Administration User**
 2.	Under the **Administration** section, click **Settings**
 3.	Set the **Number of Versions to Retain** to ```5```
 4.	Uncheck the **Update Properties Allowed** checkbox
