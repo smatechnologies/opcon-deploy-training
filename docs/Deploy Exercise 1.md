@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 1: Create User IDs
 
-### Objective:
+### Objective
 
 Create two Users within the Deploy Client
 

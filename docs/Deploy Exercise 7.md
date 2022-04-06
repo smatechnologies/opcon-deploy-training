@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 7: Steps to Perform Script Deployment
 
-### Objective:
+### Objective
 
 Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-QA``` Server
 

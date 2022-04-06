@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 6: Steps to Browse Scripts
 
-### Objective:
+### Objective
 
 Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 

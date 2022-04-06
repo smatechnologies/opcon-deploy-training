@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 14: Steps to Perform a Batch Deployment
 
-### Objective:
+### Objective
 
 Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the Results
 

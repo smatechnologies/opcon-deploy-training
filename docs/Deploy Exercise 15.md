@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 15: Steps to Browse After Deployments
 
-### Objective:
+### Objective
 
 Browse Recent Deployments
 
