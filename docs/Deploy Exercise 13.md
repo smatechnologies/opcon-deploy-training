@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 13: Steps to Deploy a Package
 
-##### Objective:
+### Objective:
 
 Deploy a Package to the ```OpCon-QA``` Environment with the **Adminstration User**
 

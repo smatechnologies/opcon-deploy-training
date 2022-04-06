@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 11: Steps to Set Up a Transformation Rule
 
-##### Objective:
+### Objective:
 
 Use the **Windows Authentication** login to Create Transformation Rules in the Deploy Client
 

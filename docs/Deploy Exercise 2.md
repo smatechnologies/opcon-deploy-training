@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 2: Steps To Create Servers In The OpCon environment
 
-##### Objective: 
+### Objective: 
 
 Create Four Server Connections Within the Deploy Client
 

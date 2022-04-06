@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 9: Steps to View a Schedule Stored in Deploy
 
-##### Objective: 
+### Objective: 
 
 Use the ```Windows Authentication User``` to Browse Imported Schedules in the Deploy Client
 

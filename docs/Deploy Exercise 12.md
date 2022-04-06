@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 12: Steps to Browse a Transformation Rule
 
-##### Objective:
+### Objective:
 
 Still Using the ```Windows Authentication``` Login:
 

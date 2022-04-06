@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 5: Steps To Import Scripts
 
-##### Objective:
+### Objective:
 
 Successfully Import Two Scripts into the OpCon Deploy System
 

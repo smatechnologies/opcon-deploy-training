@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Lab
 
-##### Objective: 
+### Objective: 
 
 * During this **LAB**, use the **Administration User**
 

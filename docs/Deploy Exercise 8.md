@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 8: Steps to Import A Schedule
 
-##### Objective:
+### Objective:
 
 Import 5 Schedules from the ```OpCon-Dev``` Server
 

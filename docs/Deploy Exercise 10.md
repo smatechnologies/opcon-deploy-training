@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 10: Steps to Create a Package
 
-##### Objective: 
+### Objective: 
 
 Use the **Administration User** Login to Create a Package in the Deploy Client
   

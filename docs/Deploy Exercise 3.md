@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 3: Steps To Check Deploy Global Preferences
 
-##### Objective:
+### Objective:
 
 Check and Update Deploy Global Preferences
 

@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Deploy Exercise 4: Steps To Check Audit Records
 
-##### Objective:
+### Objective:
 
 Use the Windows Authentication User to Check Audit records for:
 
