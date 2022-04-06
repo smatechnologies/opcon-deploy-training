@@ -14,14 +14,7 @@ Use the **Windows Authentication** login to Create Transformation Rules in the D
   - Transform the ```OpCon-Dev``` machine to ```OpCon-QA```
   - Transform the ```Susevm1``` machine to ```Susevm```
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CreateTransformationRules.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Create a simple Transformation Rule that will allow you to change Machine Names in Jobs from Schedules imported from the OpConTraining Environment to Machines available in the OpCon-Dev Environment when Deploying to the OpCon-Dev Environment
 
@@ -39,4 +32,7 @@ Your browser does not support the video tag.
 12.	Once the second Transformation has been created, click the **Save** button on the **View or Edit Transformation Rules** screen to save this new Rule
 13.	Click the **Close** button to close out this screen
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_CreateTransformationRules.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

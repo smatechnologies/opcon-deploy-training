@@ -12,14 +12,7 @@ Use the Windows Authentication User to Check Audit records for:
 - Windows Authentication (```az-win10-deploy\SMAUSER```) User 
 - ```DeployTeamLeader``` User
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CheckAuditRecords.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 1.	Open the **Deploy Client** and check **Use Windows Authentication** to log in in with the ```az-win10-deploy\SMAUSER``` login
 2.	Go to the **Administration** section, notice that only Audits listed can be seen
@@ -34,4 +27,7 @@ Your browser does not support the video tag.
 11.	The **Audit information** for Server Record Creation should appear in the right-hand pane of the screen
 12.	When finished checking the Audit information, click the **Close** button to close out the screen
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_CheckAuditRecords.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

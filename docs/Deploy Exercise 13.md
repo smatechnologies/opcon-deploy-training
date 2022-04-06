@@ -19,14 +19,7 @@ Log In to Enterprise Manager with the ```OpCon-QA``` Environment to:
 - Check that the Deployment occurred 
 - Check that the Transformation Rules were applied
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_DeployPackage.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 1.	Open the Deploy Client using the **Administration User**
 2.	Go to **Deployments** and click the Deploy link to open the **Select a Deployment Type** window
@@ -50,4 +43,7 @@ _If there are warnings or errors this will be indicated in red at the top of the
 17.	Open the **Job Master** screen to view the jobs in the ```HR Import``` and ```HR Import Processing``` Schedules
 18. Edit the Jobs in these Schedules and check that the Machine is correct - the Windows Jobs should be using the ```OpCon-QA``` Machine (These Machine Names should have been changed as part of the **Transformation Rules**)
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_DeployPackage.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

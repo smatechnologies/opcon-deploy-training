@@ -9,14 +9,7 @@ hide_title: 'false'
 
 Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_BrowseScripts.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 1.	Go to the **Scripts** Section and click **Browse** - This will open the **Browse and Filter Scripts Imported** screen
 2.	Both the **Create_Folder** and the **SetThreshold Scripts** can be seen in this window 
@@ -24,4 +17,7 @@ Your browser does not support the video tag.
 4.  The number of versions seen should match the values from the **Nb Versions** column in the previous exercise
 5. When finished checking, click the **Close** button
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BrowseScripts.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

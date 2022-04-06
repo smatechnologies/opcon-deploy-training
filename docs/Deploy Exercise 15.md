@@ -15,14 +15,7 @@ Browse Recent Deployments
 * View the Deployment Records for the **Congo HR Package**
   * View the **JSON** File for the Package
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_BrowseDeployments.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### This exercise will work through Browsing Deployment Records
 
@@ -34,4 +27,7 @@ Your browser does not support the video tag.
 6.	Back on the **View Deployment Records** screen, find the Deployment Record for the **Congo HR Package** and Right-Click this entry (Note the same options are available for a Deployment record for either a Schedule or a Package
 7.	After checking the Deployment Records created by your activities, close the View Deployment Records screen
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BrowseDeployments.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

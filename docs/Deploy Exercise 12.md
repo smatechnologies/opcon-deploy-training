@@ -20,14 +20,7 @@ Still Using the ```Windows Authentication``` Login:
 - Now Browse ```Version 2``` of the ```Dev-to-QA-Machines``` **JSON** file  
   - Verify that all three Definitions exist in the new **Transformation Rule**
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_BrowseTransformationRules.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Browse the Transformation Rule created in the previous exercise and add one more Rule to the list of Transformations
 
@@ -48,4 +41,7 @@ Your browser does not support the video tag.
 15.	When you have finished viewing the **JSON** format of the Transformation Rule, close the window by clicking the **Close** button
 16.	Close the **Browse and Filter Transformation Rules** screen by clicking the **Close** button
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BrowseTransformationRules.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

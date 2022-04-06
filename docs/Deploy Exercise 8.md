@@ -17,15 +17,7 @@ Import 5 Schedules from the ```OpCon-Dev``` Server
   * **HR Import**
   * **Congo Inventory Reports**
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_ImportSchedules.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Import Schedules from the OpCon-Training Environment
 
@@ -50,4 +42,7 @@ Congo Inventory Reports
 10.	On the **Review Result of Check-In** screen, confirm the correct number of Schedules were imported and that the Status of each is listed as **SUCCESS**
 11.	Click the **Close** button
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_ImportSchedules.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

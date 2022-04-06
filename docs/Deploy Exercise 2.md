@@ -15,16 +15,7 @@ Create Four Server Connections Within the Deploy Client
   - Production (OpCon-Prod)
   - Batch Schedule Server (BatchScheduleServer)
 
-<!--
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CreateServers.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
--->
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Create the server record for the Quality Assurance server in our OpCon environment
 
@@ -94,4 +85,9 @@ The port information for BatchScheduleServer will be the same as the OpCon-Prod 
 11. If the server connections was **successful** click **Save**
 12. If the server connection was **not successful** review the instructions or ask the Trainer for assistance
 
-</details>
+<!--
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_CreateServers.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>
+-->

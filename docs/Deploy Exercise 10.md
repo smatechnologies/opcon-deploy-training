@@ -13,14 +13,7 @@ Use the **Administration User** Login to Create a Package in the Deploy Client
     - Use the **HR Import** and **HR Import Processing** Schedules in the Package
   - Verify that the Package has been created in the **View or Edit Packages** Screen
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CreatePackage.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Create a Package Including All the Schedules Imported in Exercise 8 
 
@@ -38,4 +31,7 @@ Your browser does not support the video tag.
 12. Click the **Save** button
 14.	The new Package can now be seen in the **View or Edit Packages** screen - After checking this, click the **Close** button to close out this screen
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_CreatePackage.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

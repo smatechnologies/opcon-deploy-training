@@ -16,16 +16,7 @@ Check and Update Deploy Global Preferences
   - Update Schedule Instance Properties Allowed
   - Delete Schedule from Development System After Import
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_GlobalPreferences.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
-
-#### Check And Update (As Necessary) Deploy Global Preferences
+### Instructions
 
 1.	Open the Deploy Client using the **Administration User**
 2.	Under the **Administration** section, click **Settings**
@@ -36,4 +27,7 @@ Your browser does not support the video tag.
 7.  Uncheck the **Delete Schedule from Development System After Import** checkbox
 7.	Click the **Save** button to save changes to the **Global Preferences**
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_GlobalPreferences.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

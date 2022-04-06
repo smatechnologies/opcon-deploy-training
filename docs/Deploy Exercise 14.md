@@ -13,14 +13,7 @@ Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the
   * Use the ```Dev-to-QA-Machines``` Transformation Rule
 * Verify that the Jobs in the Schedule have the correct Machine assigned
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_BatchDeployment.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### This exercise will select a schedule to be deployed and set a batch deployment to run at a specific date and time
 
@@ -50,4 +43,7 @@ Use today's date (Not a future date) - Do Not enter a time (It will default to 0
 21. Edit the Jobs in this Schedule and check that the Machine is correct, the Windows Jobs should be using the ```OpCon-QA``` Machine and the **Inventory Purchase Report** Job should be running on the Machine ```Susevm``` (These Machine Names should have been changed as part of the Transformation Rules)
 22.	Once the check is completed completed, close Enterprise Manager
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BatchDeployment.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

@@ -11,16 +11,7 @@ Create two Users within the Deploy Client
 
 - Create a User that utilizes Windows Authentication and a User that does NOT utilize Windows Authentication
 
-<!--  
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CreateUserIDs.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
--->
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Create A User With Windows Authentication
 
@@ -51,4 +42,9 @@ The Password Field will be empty for Windows Authentication Logins
 9.	Click the **Close** button
 10.	Log out of the **Deploy client**
 
-</details>
+<!--  
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_CreateUserIDs.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>
+-->

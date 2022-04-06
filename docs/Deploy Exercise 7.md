@@ -12,14 +12,7 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 - Verify first that two Scripts do not exist in the ```OpCon-QA``` Enterprise Manager profile
 - After Deployment, Verify that the two Scripts are now visible in the ```OpCon-QA``` Enterprise Manager profile
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_ScriptDeployment.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
+### Instructions
 
 #### Check the Scripts on the OpCon-Dev Environment and Deploy the Scripts to that Environment
 
@@ -48,4 +41,7 @@ Your browser does not support the video tag.
 23.	Open Enterprise Manager using a profile that opens the ```OpCon-QA``` Environment 
 24. Go to the **Scripts Repository** and check for the expected Scripts and Version in the Repository
 
-</details>
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_ScriptDeployment.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>
