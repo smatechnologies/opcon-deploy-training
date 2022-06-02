@@ -73,5 +73,10 @@ module.exports = {
       ],
     },
     'Deploy Lab',
+    {  
+      type: 'link',
+      label: 'Student Feedback Survey',
+      href: 'https://forms.office.com/r/pQu8LwxYws',
+    },
   ],
 };
