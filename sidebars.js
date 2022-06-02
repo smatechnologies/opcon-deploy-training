@@ -76,7 +76,7 @@ module.exports = {
     {  
       type: 'link',
       label: 'Student Feedback Survey',
-      href: 'https://forms.office.com/r/pQu8LwxYws',
+      href: 'https://forms.office.com/r/6tYjkNmfE5',
     },
   ],
 };
