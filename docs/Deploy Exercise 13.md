@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ### Objective
 
-Deploy a Package to the ```OpCon-QA``` Environment with the **Adminstration User**
+Deploy a Package to the ```OpCon-QA``` Environment
 
 - Deploy the ```Congo HR Package``` to the ```OpCon-QA``` Server
 - Include the ```Dev-to-QA-Machines``` Transformation Rule 
@@ -21,7 +21,7 @@ Log In to Enterprise Manager with the ```OpCon-QA``` Environment to:
 
 ### Instructions
 
-1.	Open the Deploy Client using the **Administration User**
+1.	Open the Deploy Client.
 2.	Go to **Deployments** and click the Deploy link to open the **Select a Deployment Type** window
 3.	Click on the **Package** button to open the **Select a Package to Deploy** window
 4.	Click on the Package you created previously - ```Congo HR Package``` - it should be visible in the **Package List**
@@ -43,7 +43,9 @@ _If there are warnings or errors this will be indicated in red at the top of the
 17.	Open the **Job Master** screen to view the jobs in the ```HR Import``` and ```HR Import Processing``` Schedules
 18. Edit the Jobs in these Schedules and check that the Machine is correct - the Windows Jobs should be using the ```OpCon-QA``` Machine (These Machine Names should have been changed as part of the **Transformation Rules**)
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_DeployPackage.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->

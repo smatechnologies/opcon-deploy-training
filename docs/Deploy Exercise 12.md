@@ -7,8 +7,6 @@ hide_title: 'false'
 
 ### Objective
 
-Still Using the ```Windows Authentication``` Login:
-
 - Use the **Browse** link under **Transformation Rules**
   - Open **Browse and Filter Transformation Rules**
 
@@ -41,7 +39,9 @@ Still Using the ```Windows Authentication``` Login:
 15.	When you have finished viewing the **JSON** format of the Transformation Rule, close the window by clicking the **Close** button
 16.	Close the **Browse and Filter Transformation Rules** screen by clicking the **Close** button
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BrowseTransformationRules.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->

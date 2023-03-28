@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ### Objective
 
-Use the ```Windows Authentication User``` to Browse Imported Schedules in the Deploy Client
+Browse Imported Schedules in the Deploy Client
 
 - Open the JSON Definition File for the **HR Import** Schedule
 - Search for the word **name** within the file
@@ -17,7 +17,7 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 
 #### Test the Schedule Browse Function by Browsing a Recently Imported Schedule
 
-1.  Open the Deploy Client and check Use **Windows Authentication** to log in in with the ```az-win10-deploy\SMAUSER``` login
+1.  Open the Deploy Client.
 2.	Go to the **Schedules** section and click on the **Browse** link - This will open the **Browse and Filter Schedules Imported** screen.
 3.  Note the **Name** text box that can be used to filter the list of Schedules
 4.	Now click the ```>``` next to the **HR Import** Schedule to expand the list of Versions of this Schedule that are available
@@ -29,7 +29,9 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 10.	When you have finished your activities click the **Close** button to close this window
 11.	Now click the **Close** button to close out the **Browse and Filter Schedules Imported** screen
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BrowseSchedules.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->

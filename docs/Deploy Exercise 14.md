@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ### Objective
 
-Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the Results
+Batch Deploy a Schedule and Verify the Results
 
 * Batch Deploy the **Congo Inventory Management** Schedule to the ```OpCon-QA``` Server
   * Use the ```Dev-to-QA-Machines``` Transformation Rule
@@ -17,7 +17,7 @@ Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the
 
 #### This exercise will select a schedule to be deployed and set a batch deployment to run at a specific date and time
 
-1.	Open the Deploy Client using the **Administration User**
+1.	Open the Deploy Client.
 2.	Go to the **Deployments** section and click on the **Deploy** link to open the **Select a Deployment Type** window
 3.	Click on the **Schedule** button to open the **Select a Schedule to Deploy** window
 4.	Select the Schedule ```Congo Inventory Management``` - Available Versions for that Schedule will appear in the bottom half of the screen
@@ -43,7 +43,9 @@ Use today's date (Not a future date) - Do Not enter a time (It will default to 0
 21. Edit the Jobs in this Schedule and check that the Machine is correct, the Windows Jobs should be using the ```OpCon-QA``` Machine and the **Inventory Purchase Report** Job should be running on the Machine ```Susevm``` (These Machine Names should have been changed as part of the Transformation Rules)
 22.	Once the check is completed completed, close Enterprise Manager
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_BatchDeployment.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->

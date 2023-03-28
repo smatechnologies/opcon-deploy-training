@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ### Objective
 
-Use the **Administration User** Login to Create a Package in the Deploy Client
+Create a Package in the Deploy Client
   
   - Create a Package named **Congo HR Package**
     - Use the **HR Import** and **HR Import Processing** Schedules in the Package
@@ -17,7 +17,7 @@ Use the **Administration User** Login to Create a Package in the Deploy Client
 
 #### Create a Package Including All the Schedules Imported in Exercise 8 
 
-1.	Open the Deploy Client using the **Administration User**
+1.	Open the Deploy Client.
 2.  Go to the **Packages** section and click the **Manage** link to open the **View or Edit Packages** screen
 3.	Click the **Add** button
 4.	Enter a new Package name in the **Package Name** text box that will reflect the **HR** Schedules imported during Exercise 8 - **Congo HR Package**
@@ -31,7 +31,9 @@ Use the **Administration User** Login to Create a Package in the Deploy Client
 12. Click the **Save** button
 14.	The new Package can now be seen in the **View or Edit Packages** screen - After checking this, click the **Close** button to close out this screen
 
+<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreatePackage.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
