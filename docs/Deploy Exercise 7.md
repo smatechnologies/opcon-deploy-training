@@ -20,7 +20,7 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 2.	Go to the **Scripts** section and open the **Script Repository** window
 3.	Check if the ```Create_Folder``` and the ```SetThreshold``` Scripts exist
 4.	If they do exist, double click on each in turn to open the **Versions** window and make a note of how many versions exist for each
-5.	Now open the Deploy Client using your **Windows Authentication**
+5.	Now open the Deploy Client.
 6.	Go to the **Scripts** section and click on the Deploy link - This should open the **Select Scripts** window
 7.	You will notice the ```Create_Folder``` script listed in the top half of the screen - Click the ```>``` next to ```Create_Folder``` to show the available versions
 8.	Right-Click the most recent version and select **View Script Content** - Once you have checked the contents of the Script click the **Close** button
