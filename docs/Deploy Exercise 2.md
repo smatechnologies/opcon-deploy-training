@@ -19,7 +19,7 @@ Create Four Server Connections Within the Deploy Client
 
 #### Create the server record for the Quality Assurance server in our OpCon environment
 
-1.	Open the Deploy client and log in in with the User you just created.
+1.	Open the Deploy client and log in in with the User you just created that had **Administration Privileges**
 2.	Under the **Administration** section click on Servers to open the **Server Management** screen
 3.	Click the **Add** button
 4.	In the **Server Name** text box, enter ```OpCon-QA```
@@ -85,10 +85,7 @@ The port information for BatchScheduleServer will be the same as the OpCon-Prod 
 11. If the server connections was **successful** click **Save**
 12. If the server connection was **not successful** review the instructions or ask the Trainer for assistance
 
-
-<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_CreateServers.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->

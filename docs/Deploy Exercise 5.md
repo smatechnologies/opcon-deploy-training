@@ -11,7 +11,7 @@ Successfully Import Two Scripts into the OpCon Deploy System
 
 ### Instructions
 
-1.	Open the Deploy Client.
+1.	Open the Deploy Client using the **Windows Authentication User**
 2.	Go to the **Scripts** section and click on the **Import** link - the **Select a Server** screen will appear
 3.	From the **Select OpCon Server** dropdown select the ```OpCon-Dev``` Server
 4.	Click the **Next** button and the **Select One or More Scripts to Import** screen will open
@@ -23,9 +23,7 @@ Successfully Import Two Scripts into the OpCon Deploy System
 10.	This will open the **Review Result of Check-In** screen where to confirm that  the **SetThreshold** and the **Create_Folder** scripts have been imported - the Status should say **SUCCESS**
 11.	When finished checking, click the **Close** button
 
-<!--
 <video width="320" height="240" controls>
   <source src="imgdeploy/Deploy_ImportScripts.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->

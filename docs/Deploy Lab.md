@@ -7,6 +7,8 @@ hide_title: 'false'
 
 ### Objective
 
+* During this **LAB**, use the **Administration User**
+
 At the start of the exercises from this training: 
 
 * **Congo Online Retail** Schedules created in the ```OpCon-Dev``` Environment were moved to the ```OpCon-QA``` Environment 
