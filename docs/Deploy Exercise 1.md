@@ -13,7 +13,7 @@ Create two Users within the Deploy Client
 
 ### Instructions
 
-#### Create A User
+#### Create A Windows Authentication User 
 
 1.	Open the Deploy client and log in using the **User Name** ```admin``` and with a **Password** of ```admin```
 2.	Under the **Administration** section click on **Users** to open the **User Management** screen
