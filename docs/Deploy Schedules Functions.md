@@ -15,22 +15,22 @@ hide_title: 'false'
 * When the Import Icon is selected, the **Select a Server** Dialog Screen allows selection of an OpCon System from the drop-down list
   - The drop-down list will only present a list of OpCon Servers that are associated with the User's OpCon Deploy Role
 
-![Deployimg029](/imgdeploy/Deployimg029.png) 
+![Deployimg029](../static/imgdeploy/Deployimg029.png) 
 
 * Once an OpCon System has been selected and its license is verified, the **Select a Schedule to Import** Dialog Screen will appear
   - A list of available Schedule Definitions will appear in the Left Dialog Box
   - Schedules can be selected for Import by highlighting them in the Left Dialog Box and using the ```>``` button to move selections to the Right Dialog Box
 
-![Deployimg030](/imgdeploy/Deployimg030.png) 
+![Deployimg030](../static/imgdeploy/Deployimg030.png) 
 
 :::note Note
 _If the requested OpCon System has an ```Invalid``` License an error message will appear_
-![Deployimg031](/imgdeploy/Deployimg031.png)
+![Deployimg031](../static/imgdeploy/Deployimg031.png)
 :::
 
 * Once selections are complete, all Definitions in the Right Dialog Box will be Imported into the Repository
 
-![Deployimg032](/imgdeploy/Deployimg032.png)
+![Deployimg032](../static/imgdeploy/Deployimg032.png)
 
 * Clicking the **Finish** button will begin the Import Process immediately
 
@@ -38,16 +38,16 @@ _If the requested OpCon System has an ```Invalid``` License an error message wil
   - By default, the Import Process automatically selects Properties, Thresholds/Resources, and Calendar indicators fo the Schedule Definition
   - The User can enter a comment that will be added to the Schedule Record
 
-![Deployimg033](/imgdeploy/Deployimg033.png)
+![Deployimg033](../static/imgdeploy/Deployimg033.png)
 
 * If Selected Definitions contain OpCon **SAP R3** Definitions, selecting ```Refresh SAP Job Definitions``` will extract the SAP Job Definitions from the associated SAP Server
 
-![Deployimg034](/imgdeploy/Deployimg034.png) 
+![Deployimg034](../static/imgdeploy/Deployimg034.png) 
 
 * When the **Finish** button is selected, a **Progress Message** is displayed
   - When the Process is complete, a **Review result of check-in** Dialog Screen appears
 
-![Deployimg035](/imgdeploy/Deployimg035.png) 
+![Deployimg035](../static/imgdeploy/Deployimg035.png) 
 
 ### Schedules Import - JSON
 
@@ -56,11 +56,11 @@ _If the requested OpCon System has an ```Invalid``` License an error message wil
   - The file can be selected through browsing
   - If the Definition contains a Valid Header, the information will be displayed in the Description Section
 
-![Deployimg036](/imgdeploy/Deployimg036.png)
+![Deployimg036](../static/imgdeploy/Deployimg036.png)
 
 :::note Note
 _If the file is not a Valid JSON Definition, an error message will appear_
-![Deployimg037](/imgdeploy/Deployimg037.png)
+![Deployimg037](../static/imgdeploy/Deployimg037.png)
 :::
 
 ### Schedules Import - Batch.SMAOpConDeployClient.exe
@@ -94,7 +94,7 @@ C:\test\Batch.SMAOpConDeployClient.exe -s OPC170-PROD -w "SCHED001' -u admin -a 
 
 * The Browse function allows the OpCon Deploy User to view information about the Schedule Definition in the Repository
 
-![Deployimg039](/imgdeploy/Deployimg039.png)
+![Deployimg039](../static/imgdeploy/Deployimg039.png)
 
 * The information displayed in the Browse function consists of:
   - Schedule Name and each Version in the Repository
@@ -105,10 +105,10 @@ C:\test\Batch.SMAOpConDeployClient.exe -s OPC170-PROD -w "SCHED001' -u admin -a 
 
 * The Definition can also be displayed by Right-Clicking on the Version and selecting **View Defintion** in the pop-up
 
-![Deployimg040](/imgdeploy/Deployimg040.png)
+![Deployimg040](../static/imgdeploy/Deployimg040.png)
 
   - Definition will appear in a new pop-up window
   - Contents can be searched by entering a Value in the top search bar
   - Contents can be copied to the clipboard by highlighting what is required and selecting **Copy to Clipboard**
 
-![Deployimg041](/imgdeploy/Deployimg041.png)
+![Deployimg041](../static/imgdeploy/Deployimg041.png)

@@ -15,7 +15,7 @@ hide_title: 'false'
 
 ### Global Rules
 
-![Deployimg012](/imgdeploy/Deployimg012.png)
+![Deployimg012](../static/imgdeploy/Deployimg012.png)
 
 * **Update Properties Allowed**
     - Defines whether or not Global Property Values can be updated during the Deploy process

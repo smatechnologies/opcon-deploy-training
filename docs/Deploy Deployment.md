@@ -40,9 +40,8 @@ _Any Error Condition will perform a rollback leaving the existing Definition unc
 
 * Deploy information is written into the **Deploy Info Tab** of **Schedule Details**
 
-![Deployimg054](/imgdeploy/Deployimg054.png)
+![Deployimg054](../static/imgdeploy/Deployimg054.png)
 
-###### (Click Images to Enlarge)
 
 * The **Deploy Info Tab** contains:
     * Schedule Version
@@ -50,7 +49,7 @@ _Any Error Condition will perform a rollback leaving the existing Definition unc
     * Deployment Record ID in the OpCon Deploy Database
     * Which User and Date/Time initiated the Deployment
 
-![Deployimg055](/imgdeploy/Deployimg055.png)
+![Deployimg055](../static/imgdeploy/Deployimg055.png)
 
 * Deployment **FAILS** if:
     * SubSchedules are missing

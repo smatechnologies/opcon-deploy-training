@@ -10,7 +10,7 @@ hide_title: 'false'
 
 * Scripts are imported into the Repository with the **Script Import** Capability
 
-![Deployimg015](/imgdeploy/Deployimg015.png)
+![Deployimg015](../static/imgdeploy/Deployimg015.png)
 
 * During the Script Import Process a check is made for existing Script Information in the Repository:
   - Script Type
@@ -30,7 +30,7 @@ hide_title: 'false'
 
 * When the ```Next``` button has been selected in the dialog box, the '**Select one or more Scripts to import**' dialog appears
 
-![Deployimg016](/imgdeploy/Deployimg016.png) 
+![Deployimg016](../static/imgdeploy/Deployimg016.png) 
 
   - A list of available Script Definitions appears in the Left-Hand box
   - The column '**Nb Versions**' indicates how many Versions of the Script are present in the OpCon Script Repository
@@ -40,10 +40,10 @@ hide_title: 'false'
 
 * When the ```Next``` button has been selected in the dialog box, the '**Summary**' dialog appears with User selections
 
-![Deployimg017](/imgdeploy/Deployimg017.png)
+![Deployimg017](../static/imgdeploy/Deployimg017.png)
 
   - Comments can be added to the Schedule Record in the '**Summary**' dialog
 
 * When the ```Finish``` button has been selected a **Progress Message** is displayed and when the process completes, the '**Review result of check-in**' dialog will appear
 
-![Deployimg018](/imgdeploy/Deployimg018.png)   
+![Deployimg018](../static/imgdeploy/Deployimg018.png)   

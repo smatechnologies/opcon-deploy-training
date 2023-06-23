@@ -24,7 +24,7 @@ hide_title: 'false'
 * Schedules are stored in JSON format and contain all information about the Schedule
     - This includes the OpCon Version from which the Schedule was extracted
 
-![Deployimg028](/imgdeploy/Deployimg028.png)
+![Deployimg028](../static/imgdeploy/Deployimg028.png)
 
 * Any Roles, Access Codes, Departments, Scripts, Properties, Calendars, and Variables (Resources and Thresholds) found in the Schedule are also included
 

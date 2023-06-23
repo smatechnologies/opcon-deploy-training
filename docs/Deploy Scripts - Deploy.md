@@ -7,7 +7,7 @@ hide_title: 'false'
     
 ### Script Deploy
 
-![Deployimg019](/imgdeploy/Deployimg019.png)
+![Deployimg019](../static/imgdeploy/Deployimg019.png)
 
 * Scripts are Deployed into the OpCon Script Repository of the selected OpCon System using the **Script Deploy** Function
 
@@ -29,7 +29,7 @@ hide_title: 'false'
 
 * When the Deploy Icon has been selected, the '**Select Scripts**' Dialog Screen appears 
 
-![Deployimg020](/imgdeploy/Deployimg020.png)  
+![Deployimg020](../static/imgdeploy/Deployimg020.png)  
 
 *  The User can now select Scripts to Deploy
 * It is possible to Deploy _multiple_ Scripts
@@ -49,25 +49,25 @@ The **Up** and **Down** Arrows between Dialog Boxes functions as specified below
 * Once Scripts have been selected, the **Next** Button will advance to the '**Select a Server**' Dialog Screen
     * The drop-down list will only present a list of OpCon Servers that are associated with the User's OpCon Deploy Role
 
-![Deployimg021](/imgdeploy/Deployimg021.png)
+![Deployimg021](../static/imgdeploy/Deployimg021.png)
 
 * When a Server has been selected, the **Summary** Dialog Screen will appear
 
-![Deployimg022](/imgdeploy/Deployimg022.png) 
+![Deployimg022](../static/imgdeploy/Deployimg022.png) 
 
 * The User can enter a comment that will be saved with the Deployment Process
 
 * The **Review result of deployment** Dialog Screen provides the results of the Process
 
-![Deployimg023](/imgdeploy/Deployimg023.png)
+![Deployimg023](../static/imgdeploy/Deployimg023.png)
 
-![Deployimg024](/imgdeploy/Deployimg024.png)
+![Deployimg024](../static/imgdeploy/Deployimg024.png)
 
 ### Browse 
 
 * The **Browse** Function allows the OpCon Deploy User to view information about the Script Definition in the Repository
 
-![Deployimg025](/imgdeploy/Deployimg025.png)
+![Deployimg025](../static/imgdeploy/Deployimg025.png)
 
 * The information displayed is:
     * Script Name, Type, and _Each_ Version in the Repository
@@ -76,11 +76,11 @@ The **Up** and **Down** Arrows between Dialog Boxes functions as specified below
     * The Script creation Date and Last Update from the OpCon Repository
     * The Deploy User who performed the last action on the Record and Date
 
-![Deployimg026](/imgdeploy/Deployimg026.png)
+![Deployimg026](../static/imgdeploy/Deployimg026.png)
 
 * The Definition can also be displayed by Right-Clicking **Version** and selecting **View Script Content** 
     * The Definition will appear in a pop-up window
     * Contents can be searched
     * Contents can be copied to the Clipboard by highlighting desired information and selecting **Copy to Clipboard**
 
-![Deployimg027](/imgdeploy/Deployimg027.png)
+![Deployimg027](../static/imgdeploy/Deployimg027.png)

@@ -36,4 +36,4 @@ hide_title: 'false'
     - If the Type does not match, Deployment will be stopped
 
 
-![Deployimg014](/imgdeploy/Deployimg014.png)  
+![Deployimg014](../static/imgdeploy/Deployimg014.png)  

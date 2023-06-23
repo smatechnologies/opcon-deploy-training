@@ -14,7 +14,7 @@ hide_title: 'false'
     - Time Stamp
 * The messages are written into the Audit Table and can be viewed by any Adminstration Role
 
-![Deployimg013](/imgdeploy/Deployimg013.png)
+![Deployimg013](../static/imgdeploy/Deployimg013.png)
 
 * Audit Categories
     - Deployment

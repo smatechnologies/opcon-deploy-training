@@ -5,9 +5,7 @@ hide_title: 'false'
 
 ## Deployment - Simulation
 
-![Deployimg066](/imgdeploy/Deployimg066.png)
-
-###### (Click Images to Enlarge)
+![Deployimg066](../static/imgdeploy/Deployimg066.png)
 
 * The **Simulation** feature performs a Test Deployment
     * Checks for Schedule Definition matching
@@ -57,10 +55,10 @@ hide_title: 'false'
     * Job Machine Feature Requirements Check
     * Dependent Job Check
 
-![Deployimg067](/imgdeploy/Deployimg067.png) 
+![Deployimg067](../static/imgdeploy/Deployimg067.png) 
 
 * If an error is encountered, the font color of the Report Header will be **Red**
     * If Definitions mismatch, the differences will be displayed
     * If there are missing items, they will be displayed within the expected session
 
-![Deployimg068](/imgdeploy/Deployimg068.png)
+![Deployimg068](../static/imgdeploy/Deployimg068.png)

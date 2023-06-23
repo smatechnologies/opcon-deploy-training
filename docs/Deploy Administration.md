@@ -13,7 +13,7 @@ hide_title: 'false'
     - **Audits**
     - **Settings**
 
-![Deployimg004](/imgdeploy/Deployimg004.png)
+![Deployimg004](../static/imgdeploy/Deployimg004.png)
 
 ### Administration - Users
 
@@ -44,7 +44,7 @@ hide_title: 'false'
 
 ### User Management
 
-![Deployimg005](/imgdeploy/Deployimg005.png)
+![Deployimg005](../static/imgdeploy/Deployimg005.png)
 
 * The User Management Screen allows User Definitions to be created, updated, or removed
 
