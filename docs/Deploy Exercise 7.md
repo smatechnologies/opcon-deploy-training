@@ -22,7 +22,7 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 4.	If they do exist, double click on each in turn to open the **Versions** window and make a note of how many versions exist for each
 5.	Now open the Deploy Client.
 6.	Go to the **Scripts** section and click on the Deploy link - This should open the **Select Scripts** window
-7.	You will notice the ```Create_Folder``` script listed in the top half of the screen - Click the ```>``` next to ```Create_Folder``` to show the available versions
+7.	You will notice the ```Create_Folder``` script listed in the top half of the screen - Click the ```>``` next to ```Create_Folder``` to show the available versions *(You may need to click the REFRESH button to view the Scripts)*
 8.	Right-Click the most recent version and select **View Script Content** - Once you have checked the contents of the Script click the **Close** button
 9.	Now Double-Click that version and note that it appears in the lower half of the screen
 10.	Now expand the versions below the ```SetThreshold``` Script that is in the top half of the screen
