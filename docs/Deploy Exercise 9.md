@@ -18,7 +18,7 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 #### Test the Schedule Browse Function by Browsing a Recently Imported Schedule
 
 1.  Open the Deploy Client and check Use **Windows Authentication** to log in in with the ```az-win10-deploy\SMAUSER``` login
-2.	Go to the **Schedules** section and click on the **Browse** link - This will open the **Browse and Filter Schedules Imported** screen.
+2.	Go to the **Schedules** section and click on the **Browse** link - This will open the **Browse and Filter Schedules Imported** screen. *(You may need to click the REFRESH button to view the Schedules)*
 3.  Note the **Name** text box that can be used to filter the list of Schedules
 4.	Now click the ```>``` next to the **HR Import** Schedule to expand the list of Versions of this Schedule that are available
 5.	Right-Click the latest Version of the **HR Import** Schedule and select **View Definition**
