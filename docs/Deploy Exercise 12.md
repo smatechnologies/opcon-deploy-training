@@ -24,7 +24,7 @@ Still Using the ```Windows Authentication``` Login:
 
 #### Browse the Transformation Rule created in the previous exercise and add one more Rule to the list of Transformations
 
-1.	Go to the **Transformation Rules** section and click on the **Browse** link - This will open the **Browse and Filter Transformation Rules** screen
+1.	Go to the **Transformation Rules** section and click on the **Browse** link - This will open the **Browse and Filter Transformation Rules** screen *(You may need to click the REFRESH button to view the Transformation Rules)*
 2.	Take note of the **Name** text box as this can be used to filter the Transformation Rules when there are many Rules in the database
 3.	Now expand the ```Dev-to-QA-Machines``` Transformation Rule by clicking the ```>```
 4.	Right-Click the ```Version 1``` of the Transformation Rule and the **Edit a Transformation Rule** screen will open
@@ -35,7 +35,7 @@ Still Using the ```Windows Authentication``` Login:
 9.	Click the **Save** button to save this new Transformation pattern
 10.	Click the **Save** button to save this change to the Transformation Rule
 11.	Click **OK** to the popup message that says a new Version of the Transformation Rule has been saved
-12.	Check that this new Version is visible in the **Browse and Filter Transformation Rules** screen
+12.	Check that this new Version is visible in the **Browse and Filter Transformation Rules** screen *(You may need to click the REFRESH button to view the Transformation Rules)*
 13.	Now right-Click ```Version 2``` of the ```Dev-to-QA-Machines ``` Transformation Rule and select **View Definition**. This will open the Definition of ```[Dev-to-QA-Machines] ``` screen
 14.	**Machine Names** should be clearly visible as they will be created when the Transformation Rule is used, as should the new Value that will be used for the **Resource Name**
 15.	When you have finished viewing the **JSON** format of the Transformation Rule, close the window by clicking the **Close** button
