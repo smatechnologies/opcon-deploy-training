@@ -22,14 +22,14 @@ Log In to Enterprise Manager with the ```OpCon-QA``` Environment to:
 ### Instructions
 
 1.	Open the Deploy Client using the **Administration User**
-2.	Go to **Deployments** and click the Deploy link to open the **Select a Deployment Type** window
-3.	Click on the **Package** button to open the **Select a Package to Deploy** window
+2.	Go to **Deployments** and click the **Deploy** link to open the **Select a Deployment Type** window
+3.	Click on the **Package** button to open the **Select a Package to Deploy** window *(You may need to click the REFRESH button to view the Packages)*
 4.	Click on the Package you created previously - ```Congo HR Package``` - it should be visible in the **Package List**
 5.	This will display the Versions of this Package in the lower half of the screen
 6. Select the **Latest Version** and click the **Next** button - This will open the **Select a Server** screen
 7.	From the **Select OpCon Server** dropdown select the ```OpCon-QA``` Server
 8.	Click the **Next** button to advance to the **Select Transformation Rules** screen
-9.	Select the **Latest Version** of the ```Dev-to-QA-Machines``` Transformation Rule and move it to the lower half of the screen - This can be done by Double-Clicking or by using the arrows between the screen halves
+9.	Select the **Latest Version** of the ```Dev-to-QA-Machines``` Transformation Rule and move it to the lower half of the screen - This can be done by Double-Clicking or by using the arrows between the screen halves *(You may need to click the REFRESH button to view Transformation Rules)*
 10.	Click the **Simulate** button - This will open the **Results of Simulation** screen, displays any warnings or errors 
 :::note Note
 _If there are warnings or errors this will be indicated in red at the top of the screen_
