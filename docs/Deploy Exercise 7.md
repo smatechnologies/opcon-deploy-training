@@ -41,7 +41,6 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 23.	Open Enterprise Manager using a profile that opens the ```OpCon-QA``` Environment 
 24. Go to the **Scripts Repository** and check for the expected Scripts and Version in the Repository
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_ScriptDeployment.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+:::tip [Walkthrough Video - Exercise 7](../static/imgdeploy/Deploy_ScriptDeployment.mp4)
+
+:::
