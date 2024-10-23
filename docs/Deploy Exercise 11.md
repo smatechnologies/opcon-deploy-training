@@ -31,8 +31,3 @@ Use the **Windows Authentication** login to Create Transformation Rules in the D
 11.	Now add a second transformation that will transform the Machine Name in Jobs that have a Machine Name of ```Susevm1``` to the Machine Name available in the ```OpCon-QA``` Environment which is ```Susevm```
 12.	Once the second Transformation has been created, click the **Save** button on the **View or Edit Transformation Rules** screen to save this new Rule
 13.	Click the **Close** button to close out this screen
-<!--
-:::tip [Walkthrough Video - Exercise 11](../static/imgdeploy/Deploy_CreateTransformationRules.mp4)
-
-:::
--->

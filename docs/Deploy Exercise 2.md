@@ -84,8 +84,3 @@ The port information for BatchScheduleServer will be the same as the OpCon-Prod 
 10. Click the **Test Server Connection** button
 11. If the server connections was **successful** click **Save**
 12. If the server connection was **not successful** review the instructions or ask the Trainer for assistance
-<!--
-:::tip [Walkthrough Video - Exercise 2](../static/imgdeploy/Deploy_CreateServers.mp4)
-
-:::
--->
