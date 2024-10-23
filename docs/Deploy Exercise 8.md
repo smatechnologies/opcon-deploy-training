@@ -41,7 +41,8 @@ Congo Inventory Reports
 9.	Click the **Finish** button
 10.	On the **Review Result of Check-In** screen, confirm the correct number of Schedules were imported and that the Status of each is listed as **SUCCESS**
 11.	Click the **Close** button
-
+<!--
 :::tip [Walkthrough Video - Exercise 8](../static/imgdeploy/Deploy_ImportSchedules.mp4)
 
 :::
+-->

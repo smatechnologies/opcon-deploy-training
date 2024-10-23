@@ -27,7 +27,8 @@ Use the Windows Authentication User to Check Audit records for:
 11.	The **Audit information** for Server Record Creation should appear in the right-hand pane of the screen
 12.	When finished checking the Audit information, click the **Close** button to close out the screen
 
-
+<!--
 :::tip [Walkthrough Video - Exercise 4](../static/imgdeploy/Deploy_CheckAuditRecords.mp4)
 
 :::
+-->

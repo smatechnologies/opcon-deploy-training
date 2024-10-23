@@ -40,7 +40,8 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 22.	Once you have checked, you can close this action out by clicking the **Close** button
 23.	Open Enterprise Manager using a profile that opens the ```OpCon-QA``` Environment 
 24. Go to the **Scripts Repository** and check for the expected Scripts and Version in the Repository
-
+<!--
 :::tip [Walkthrough Video - Exercise 7](../static/imgdeploy/Deploy_ScriptDeployment.mp4)
 
 :::
+-->

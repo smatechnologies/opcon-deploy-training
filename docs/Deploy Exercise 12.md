@@ -40,7 +40,8 @@ Still Using the ```Windows Authentication``` Login:
 14.	**Machine Names** should be clearly visible as they will be created when the Transformation Rule is used, as should the new Value that will be used for the **Resource Name**
 15.	When you have finished viewing the **JSON** format of the Transformation Rule, close the window by clicking the **Close** button
 16.	Close the **Browse and Filter Transformation Rules** screen by clicking the **Close** button
-
+<!--
 :::tip [Walkthrough Video - Exercise 12](../static/imgdeploy/Deploy_BrowseTransformationRules.mp4)
 
 :::
+-->

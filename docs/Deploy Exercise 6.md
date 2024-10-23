@@ -16,7 +16,8 @@ Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 3.  Click the **>** next to each to expand these Scripts to view how many versions of each script were imported
 4.  The number of versions seen should match the values from the **Nb Versions** column in the previous exercise
 5. When finished checking, click the **Close** button
-
+<!--
 :::tip [Walkthrough Video - Exercise 6](../static/imgdeploy/Deploy_BrowseScripts.mp4)
 
 :::
+-->

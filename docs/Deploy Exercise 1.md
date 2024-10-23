@@ -42,6 +42,8 @@ The Password Field will be empty for Windows Authentication Logins
 9.	Click the **Close** button
 10.	Log out of the **Deploy client**
 
+<!--
 :::tip [Walkthrough Video - Exercise 1](../static/imgdeploy/Deploy_CreateUserIDs.mp4)
 
 :::
+-->
