@@ -22,3 +22,8 @@ Successfully Import Two Scripts into the OpCon Deploy System
 9.	Click the **Finish** button
 10.	This will open the **Review Result of Check-In** screen where to confirm that  the **SetThreshold** and the **Create_Folder** scripts have been imported - the Status should say **SUCCESS**
 11.	When finished checking, click the **Close** button
+
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_ImportScripts.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

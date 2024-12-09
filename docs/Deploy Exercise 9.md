@@ -28,3 +28,8 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 9.	Now put a new selection in the filter text box and test the filter action for yourself
 10.	When you have finished your activities click the **Close** button to close this window
 11.	Now click the **Close** button to close out the **Browse and Filter Schedules Imported** screen
+
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BrowseSchedules.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>

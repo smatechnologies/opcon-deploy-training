@@ -42,3 +42,8 @@ Use today's date (Not a future date) - Do Not enter a time (It will default to 0
 20.	Now open the **Job Master** screen to view the jobs in the **Congo Inventory Management** Schedule 
 21. Edit the Jobs in this Schedule and check that the Machine is correct, the Windows Jobs should be using the ```OpCon-QA``` Machine and the **Inventory Purchase Report** Job should be running on the Machine ```Susevm``` (These Machine Names should have been changed as part of the Transformation Rules)
 22.	Once the check is completed completed, close Enterprise Manager
+
+<video width="320" height="240" controls>
+  <source src="imgdeploy/Deploy_BatchDeployment.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>
