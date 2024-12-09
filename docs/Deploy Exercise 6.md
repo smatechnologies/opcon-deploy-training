@@ -17,7 +17,4 @@ Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 4.  The number of versions seen should match the values from the **Nb Versions** column in the previous exercise
 5. When finished checking, click the **Close** button
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_BrowseScripts.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+[Video Walkthrough - Browse Scripts](../static/imgdeploy/Deploy_BrowseScripts.mp4)

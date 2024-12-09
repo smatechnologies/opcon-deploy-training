@@ -43,7 +43,4 @@ _If there are warnings or errors this will be indicated in red at the top of the
 17.	Open the **Job Master** screen to view the jobs in the ```HR Import``` and ```HR Import Processing``` Schedules
 18. Edit the Jobs in these Schedules and check that the Machine is correct - the Windows Jobs should be using the ```OpCon-QA``` Machine (These Machine Names should have been changed as part of the **Transformation Rules**)
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_DeployPackage.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+[Video Walkthrough - Deploy a Package](../static/imgdeploy/Deploy_DeployPackage.mp4)

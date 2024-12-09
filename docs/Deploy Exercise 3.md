@@ -27,7 +27,4 @@ Check and Update Deploy Global Preferences
 7.  Uncheck the **Delete Schedule from Development System After Import** checkbox
 7.	Click the **Save** button to save changes to the **Global Preferences**
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_GlobalPreferences.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+[Video Walkthrough - Global Preferences](../static/imgdeploy/Deploy_GlobalPreferences.mp4)

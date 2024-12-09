@@ -47,3 +47,5 @@ Remember that in this ecosystem, the ```OpCon-Prod``` Environment in Enterprise 
   <source src="imgdeploy/Deploy_Lab.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+
+[Video Walkthrough - Comprehensive Lab](../static/imgdeploy/Deploy_Lab.mp4)

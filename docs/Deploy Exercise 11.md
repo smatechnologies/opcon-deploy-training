@@ -32,7 +32,4 @@ Use the **Windows Authentication** login to Create Transformation Rules in the D
 12.	Once the second Transformation has been created, click the **Save** button on the **View or Edit Transformation Rules** screen to save this new Rule
 13.	Click the **Close** button to close out this screen
 
-<video width="320" height="240" controls>
-  <source src="imgdeploy/Deploy_CreateTransformationRules.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+[Video Walkthrough - Create Transformation Rules](../static/imgdeploy/CreateTransformationRules.mp4)
