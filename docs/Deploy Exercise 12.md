@@ -41,4 +41,8 @@ Still Using the ```Windows Authentication``` Login:
 15.	When you have finished viewing the **JSON** format of the Transformation Rule, close the window by clicking the **Close** button
 16.	Close the **Browse and Filter Transformation Rules** screen by clicking the **Close** button
 
-[Video Walkthrough - Browse Transformation Rules](../static/imgdeploy/Deploy_BrowseTransformationRules.mp4)
+:::info Video Walkthrough
+
+[Browse Transformation Rules](../static/imgdeploy/Deploy_BrowseTransformationRules.mp4)
+
+:::

@@ -29,4 +29,8 @@ Use the ```Windows Authentication User``` to Browse Imported Schedules in the De
 10.	When you have finished your activities click the **Close** button to close this window
 11.	Now click the **Close** button to close out the **Browse and Filter Schedules Imported** screen
 
-[Video Walkthrough - Browse Schedules](../static/imgdeploy/Deploy_BrowseSchedules.mp4)
+:::info Video Walkthrough
+
+[Browse Schedules](../static/imgdeploy/Deploy_BrowseSchedules.mp4)
+
+:::

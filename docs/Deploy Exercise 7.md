@@ -41,4 +41,8 @@ Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-
 23.	Open Enterprise Manager using a profile that opens the ```OpCon-QA``` Environment 
 24. Go to the **Scripts Repository** and check for the expected Scripts and Version in the Repository
 
-[Video Walkthrough - Deploy Scripts](../static/imgdeploy/Deploy_ScriptDeployment.mp4)
+:::info Video Walkthrough
+
+[Deploy Scripts](../static/imgdeploy/Deploy_ScriptDeployment.mp4)
+
+:::

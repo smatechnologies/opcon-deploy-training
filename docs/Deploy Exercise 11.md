@@ -32,4 +32,8 @@ Use the **Windows Authentication** login to Create Transformation Rules in the D
 12.	Once the second Transformation has been created, click the **Save** button on the **View or Edit Transformation Rules** screen to save this new Rule
 13.	Click the **Close** button to close out this screen
 
-[Video Walkthrough - Create Transformation Rules](../static/imgdeploy/CreateTransformationRules.mp4)
+:::info Video Walkthrough
+
+[Create Transformation Rules](../static/imgdeploy/CreateTransformationRules.mp4)
+
+:::

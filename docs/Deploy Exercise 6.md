@@ -17,4 +17,8 @@ Use the Browse Scripts Function in the Deploy Client to View Imported Scripts
 4.  The number of versions seen should match the values from the **Nb Versions** column in the previous exercise
 5. When finished checking, click the **Close** button
 
-[Video Walkthrough - Browse Scripts](../static/imgdeploy/Deploy_BrowseScripts.mp4)
+:::info Video Walkthrough
+
+[Browse Scripts](../static/imgdeploy/Deploy_BrowseScripts.mp4)
+
+:::

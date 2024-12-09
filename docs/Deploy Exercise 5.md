@@ -23,4 +23,8 @@ Successfully Import Two Scripts into the OpCon Deploy System
 10.	This will open the **Review Result of Check-In** screen where to confirm that  the **SetThreshold** and the **Create_Folder** scripts have been imported - the Status should say **SUCCESS**
 11.	When finished checking, click the **Close** button
 
-[Video Walkthrough - Import Scripts](../static/imgdeploy/Deploy_ImportScripts.mp4)
+:::info Video Walkthrough
+
+[Import Scripts](../static/imgdeploy/Deploy_ImportScripts.mp4)
+
+:::

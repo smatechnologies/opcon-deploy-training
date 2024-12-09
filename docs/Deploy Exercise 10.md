@@ -29,4 +29,8 @@ Use the **Administration User** Login to Create a Package in the Deploy Client
 10. Click the **Save** button
 11.	The new Package can now be seen in the **View or Edit Packages** screen - After checking this, click the **Close** button to close out this screen
 
-[Video Walkthrough - Create Package](../static/imgdeploy/Deploy_CreatePackage.mp4)
+:::info Video Walkthrough
+
+[Create Package](../static/imgdeploy/Deploy_CreatePackage.mp4)
+
+:::

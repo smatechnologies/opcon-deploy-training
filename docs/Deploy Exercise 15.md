@@ -27,4 +27,8 @@ Browse Recent Deployments
 6.	Back on the **View Deployment Records** screen, find the Deployment Record for the **Congo HR Package** and Right-Click this entry (Note the same options are available for a Deployment record for either a Schedule or a Package
 7.	After checking the Deployment Records created by your activities, close the View Deployment Records screen
 
-[Video Walkthrough - Browse Deployments](../static/imgdeploy/Deploy_BrowseDeployments.mp4)
+:::info Video Walkthrough
+
+[Browse Deployments](../static/imgdeploy/Deploy_BrowseDeployments.mp4)
+
+:::

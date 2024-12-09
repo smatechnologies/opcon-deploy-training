@@ -43,4 +43,8 @@ Use today's date (Not a future date) - Do Not enter a time (It will default to 0
 21. Edit the Jobs in this Schedule and check that the Machine is correct, the Windows Jobs should be using the ```OpCon-QA``` Machine and the **Inventory Purchase Report** Job should be running on the Machine ```Susevm``` (These Machine Names should have been changed as part of the Transformation Rules)
 22.	Once the check is completed completed, close Enterprise Manager
 
-[Video Walkthrough - Batch Deployment](../static/imgdeploy/Deploy_BatchDeployment.mp4)
+:::info Video Walkthrough
+
+[Batch Deployment](../static/imgdeploy/Deploy_BatchDeployment.mp4)
+
+:::
