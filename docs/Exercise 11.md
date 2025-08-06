@@ -34,6 +34,6 @@ Use the **Windows Authentication** login to Create Transformation Rules in the D
 
 :::info Video Walkthrough
 
-[Create Transformation Rules](../static/imgdeploy/CreateTransformationRules.mp4)
+[Create Transformation Rules](../static/imgdeploy/Deploy_CreateTransformationRules.mp4)
 
 :::
