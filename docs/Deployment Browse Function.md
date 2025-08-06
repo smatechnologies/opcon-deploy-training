@@ -25,13 +25,13 @@ hide_title: 'false'
     * **Server Name**
     * **Type** (Schedule, Package, or Script)
     * **Status** (Active, Deploying, Deployed, Inactive, Deleted, Rolled Back, or Unknown)
-    * **Description** (Text enteredd during Deploy process)
+    * **Description** (Text entered during Deploy process)
     * **User that performed the Deployment** and **When**
 
 ![Deployimg075](../static/imgdeploy/Deployimg075.png)
 
-* Actions can be performed on the Deployment Information Screen by Right*Clicking the Record and selectiong an Action
-    * **View Definion**
+* Actions can be performed on the Deployment Information Screen by Right*Clicking the Record and selecting an Action
+    * **View Definition**
         *   Displays the Definition Deployed to the System
     * **View Roll Back Definition**
         * Displays the Backup Definition taken during the Deployment Process
