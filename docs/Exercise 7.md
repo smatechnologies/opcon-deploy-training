@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 7'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 7: Steps to Perform Script Deployment

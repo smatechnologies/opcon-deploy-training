@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Deployment Functions'
-hide_title: 'false'
 ---
 
 ## Deployment - Schedule

@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Transformations Functions'
-hide_title: 'false'
 ---
 
 ## Deploy - Transformations Functions

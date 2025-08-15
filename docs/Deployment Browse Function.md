@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Deployment Browse Function'
-hide_title: 'false'
 ---
 
 ## Deployment - Browse Function

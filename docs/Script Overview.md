@@ -1,11 +1,10 @@
 ---
-sidebar_label: 'Scripts Overview'
-hide_title: 'false'
+sidebar_label: 'Script Overview'
 ---
 
-## Deploy - Scripts
+## Overview
 
-* Deploy **Scripts** are associated with **Script Runners** and ****Script Types**
+* Deploy **Scripts** are associated with **Script Runners** and **Script Types**
 * A Script may have **multiple Script Runners**, but only a **single Script Type**
 * Scripts are versioned in the OpCon Script Repository
 * Each time a Script is updated in the OpCon Script Repository, a new Version is automatically created
@@ -13,18 +12,18 @@ hide_title: 'false'
 * When working with multiple OpCon Systems, Version numbers associated with a Script must be consistent across OpCon Deploy and all OpCon Script Repositories
   * **OpCon Deploy provides a centralized Repository** for all Scripts to ensure Versioning is consistent across the OpCon Deploy and OpCon Script Repositories
 
-### Schedule Check-In Process for Script Information
+![Deployimg014](../static/imgdeploy/Deployimg014.png)  
+
+## Schedule Check-In Process for Script Information
 
 * If the Script Information does **not** exist in the Repository it will be **added with all Versions**
 * If the Script Information **exists** in the Repository
   * Script Type will be checked for a match and a matching Script Type will add all Versions
   * If the Type does not match, Import will be stopped
 
-### Schedule/Package Deploy Process for Embedded Script Information
+## Schedule/Package Deploy Process for Embedded Script Information
 
 * If the Script does not exist in the OpCon Script Repository, it will be inserted with all Script Versions
 * If the Script exists in the Repository
   * Script Type will be checked for a match and a matching Script Type will add all Versions
   * If the Type does not match, Deployment will be stopped
-
-![Deployimg014](../static/imgdeploy/Deployimg014.png)  

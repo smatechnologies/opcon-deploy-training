@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 2'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 2: Define Servers In Deploy
@@ -21,10 +20,11 @@ If any connection test is **unsuccessful**, please let the instructor know.
 
 :::
 
-
 #### Define the Quality Assurance Server
 
 1.	Open the Deploy client and log in in with the User you just created that had **Administration Privileges**
+  * **User:** ```DeployTeamLead```
+  * **PWD:** ```deployadmin```
 2.	Under the **Administration** section click on Servers to open the **Server Management** screen
 3.	Click the **Add** button
 4.	In the **Server Name** text box, enter ```OpCon-QA```

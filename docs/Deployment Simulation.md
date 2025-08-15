@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Deployment Simulation'
-hide_title: 'false'
 ---
 
 ## Deployment - Simulation

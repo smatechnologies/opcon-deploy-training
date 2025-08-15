@@ -1,17 +1,16 @@
 ---
 sidebar_label: 'Exercise 1'
-hide_title: 'false'
 ---
 
 ## Exercise 1: Create User IDs
 
 ### Objective
 
-Create two Users within the Deploy Client
+Create two Users within the Deploy Client.
 
 ### Summary
 
-Using the admin user, you will create two new users, an **Administrator User** and a **Non-Production User**. The Administrator, ```DeployTeamLead```, will have a password assigned to it, while the Non-Production user, ```az-win10-deploy```, will utilize Windows Authentication.
+Using the Admin User, you will create two new users, an **Administrator User** and a **Non-Production User**. The Administrator, ```DeployTeamLead```, will have a password assigned to it, while the Non-Production user, ```az-win10-deploy```, will utilize Windows Authentication.
 
 ### Instructions
 

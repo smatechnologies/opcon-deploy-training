@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 4'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 4: Steps To Check Audit Records
@@ -15,7 +14,8 @@ Using the Windows Authentication User, ```az-win10-deploy\SMAUSER```, to check A
 
 ### Instructions
 
-1.	Open the **Deploy Client** and check **Use Windows Authentication** to login with ```az-win10-deploy\SMAUSER```
+1.	Open the **Deploy Client** and check **Use Windows Authentication** 
+  * **User:** ```az-win10-deploy\SMAUSER```
 2.	Go to the **Administration** section
 
 :::note
