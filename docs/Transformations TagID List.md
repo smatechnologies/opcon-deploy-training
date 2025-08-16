@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Transformations TagID List'
-hide_title: 'false'
 ---
 
 ## Deploy - Transformations TagID List

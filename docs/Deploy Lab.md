@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Deploy Lab'
-hide_title: 'false'
 ---
 
 ## Deploy Lab

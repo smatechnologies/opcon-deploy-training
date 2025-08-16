@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 13'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 13: Steps to Deploy a Package
@@ -22,6 +21,8 @@ Log In to Enterprise Manager with the ```OpCon-QA``` Environment to:
 ### Instructions
 
 1.	Open the Deploy Client using the **Administration User**
+  * **User:** ```DeployTeamLead```
+  * **PWD:** ```deployadmin```
 2.	Go to **Deployments** and click the **Deploy** link to open the **Select a Deployment Type** window
 3.	Click on the **Package** button to open the **Select a Package to Deploy** window *(You may need to click the REFRESH button to view the Packages)*
 4.	Click on the Package you created previously - ```Congo HR Package``` - it should be visible in the **Package List**

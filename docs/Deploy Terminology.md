@@ -1,9 +1,8 @@
 ---
 sidebar_label: 'Deploy Terminology'
-hide_title: 'false'
 ---
 
-## Deploy Terminology
+## Terminology
 
 * **Import:** The process of extracting a Schedule Definition from the source OpCon Environment
 * **Deploy:** The process of selecting a Schedule Definition from the Central Repository and inserting it into the target OpCon Environment

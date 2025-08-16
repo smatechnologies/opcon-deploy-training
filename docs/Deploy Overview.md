@@ -20,6 +20,8 @@ sidebar_label: 'Deploy Overview'
   * Provides rollback capabilities to quickly restore a deployment to a previous stable version
   * Provides **Batch Deployment** capability allowing deployments to be scheduled for future dates and times
 
+## Architecture
+
 ![Deployimg002](../static/imgdeploy/Deployimg002.png)
 
 ## Server Communication

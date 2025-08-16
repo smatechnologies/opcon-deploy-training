@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Packages Functions'
-hide_title: 'false'
 ---
 
 ## Deploy - Packages Functions

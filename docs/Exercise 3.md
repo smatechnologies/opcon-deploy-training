@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 3'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 3: Deploy Preferences
@@ -18,6 +17,8 @@ Configure Deploy to retain ```5``` version and prevent the updating of **Global 
 #### Configure Settings
 
 1.	Open the Deploy Client using the **Administration User**
+  * **User:** ```DeployTeamLead```
+  * **PWD:** ```deployadmin```
 2.	Under the **Administration** section, click **Settings**
 3.	Set the **Number of Versions to Retain** to ```5```
 

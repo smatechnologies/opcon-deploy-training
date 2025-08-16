@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Transformations'
-hide_title: 'false'
 ---
 
 # Deploy - Transformations

@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Packages'
-hide_title: 'false'
 ---
 
 ## Deploy - Packages

@@ -1,19 +1,18 @@
 ---
 sidebar_label: 'Settings'
-hide_title: 'false'
 ---
 
-## Administration - Settings
+## Overview
 
 * Deploy Settings are used to define Global Settings and Global Rules in the OpCon Deploy Environment
   * These settings override options selected by Users during Operations
 
-### Global Settings
+## Global Settings
 
 * **Number of Versions to Retain**
   * Defines the number of Versions to keep in the Main Tables during the Archiving process
 
-### Global Rules
+## Global Rules
 
 ![Deployimg012](../static/imgdeploy/Deployimg012.png)
 

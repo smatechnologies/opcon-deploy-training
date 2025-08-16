@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 5'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 5: Steps To Import Scripts
@@ -12,6 +11,7 @@ Successfully Import Two Scripts into the OpCon Deploy System
 ### Instructions
 
 1.	Open the Deploy Client using the **Windows Authentication User**
+  * **User:** ```az-win10-deploy\smauser```
 2.	Go to the **Scripts** section and click on the **Import** link - the **Select a Server** screen will appear
 3.	From the **Select OpCon Server** dropdown select the ```OpCon-Dev``` Server
 4.	Click the **Next** button and the **Select One or More Scripts to Import** screen will open

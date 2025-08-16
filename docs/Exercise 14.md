@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 14'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 14: Steps to Perform a Batch Deployment
@@ -18,6 +17,8 @@ Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the
 #### This exercise will select a schedule to be deployed and set a batch deployment to run at a specific date and time
 
 1.	Open the Deploy Client using the **Administration User**
+  * **User:** ```DeployTeamLead```
+  * **PWD:** ```deployadmin```
 2.	Go to the **Deployments** section and click on the **Deploy** link to open the **Select a Deployment Type** window
 3.	Click on the **Schedule** button to open the **Select a Schedule to Deploy** window
 4.	Select the Schedule ```Congo Inventory Management``` - Available Versions for that Schedule will appear in the bottom half of the screen

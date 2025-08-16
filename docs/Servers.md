@@ -1,27 +1,15 @@
 ---
 sidebar_label: 'Servers'
-hide_title: 'false'
 ---
 
-## Deploy Administration - Servers
+## Overview
 
 * Servers are used to define OpCon systems that will participate in OpCon Deploy Operations
 * Servers are allocated a **Type** which determines its function in the Deploy environment
   * Connections to OpCon Systems should support TLS connections using Self-Signed Certificates
   * Each Server **requires** a **Deploy License** which is checked before executing any requests on an OpCon System
 
-### Server Definition Requirements
-
-![Deployimg006](../static/imgdeploy/Deployimg006.png)
-
-* Server Definition Requirements
-  * **Server Name** must be unique within the Deploy Environment
-  * Each server must be assigned a **Server Type**
-  * **Allows Transformation Rules** can be toggled on or off
-  * Defined **Port Number** for the **Deploy Server** 
-  * Defined **Port Number** for the **OpCon API** server associated with that OpCon System
-
-### Server Types
+## Server Types
 
 * Server Types are associated with User Roles and determine allowed User Actions on the OpCon System
   * Development
@@ -33,7 +21,18 @@ hide_title: 'false'
   * Training
   * Test
 
-### Server Transformation Rules
+## Server Definition Requirements
+
+![Deployimg006](../static/imgdeploy/Deployimg006.png)
+
+* Server Definition Requirements
+  * **Server Name** must be unique within the Deploy Environment
+  * Each server must be assigned a **Server Type**
+  * **Allows Transformation Rules** can be toggled on or off
+  * Defined **Port Number** for the **Deploy Server** 
+  * Defined **Port Number** for the **OpCon API** server associated with that OpCon System
+
+## Server Transformation Rules
 
 * Default Transformation Rules can be associated with the OpCon System
   * When a deployment takes place, these Transformation Rules will automatically be applied to the specified Package/Schedule Definitions
@@ -46,7 +45,7 @@ hide_title: 'false'
 
 ![Deployimg008](../static/imgdeploy/Deployimg008.png)
 
-### SAP Server Support
+## SAP Server Support
 
 * If the environment contains SAP R3 Systems and automated linking of OpCon SAP Job Definitions to SAP Jobs in required, SAP Systems must be defined
   * It is also possible to extract SAP Job Definitions from an SAP System and create the Jobs in a target SAP System
@@ -61,7 +60,7 @@ hide_title: 'false'
 
 ![Deployimg010](../static/imgdeploy/Deployimg010.png)
 
-### Batch Schedule Server
+## Batch Schedule Server
 
 ![Deployimg011](../static/imgdeploy/Deployimg011.png)
 

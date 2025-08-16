@@ -1,9 +1,8 @@
 ---
-sidebar_label: 'Administration and Users'
-hide_title: 'false'
+sidebar_label: 'Users and Roles'
 ---
 
-## Deploy Administration
+## Overview
 
 * Administrative Functions are provided to support the definition of Users, OpCon Systems, and Global Settings
 * Administrative Functions have four categories:
@@ -14,13 +13,13 @@ hide_title: 'false'
 
 ![Deployimg004](../static/imgdeploy/Deployimg004.png)
 
-### Administration - Users
+## Users
 
 * Deploy requires User definitions to manage processes
   * User management is an Administrative Task and can only be accessed by users who have an Administrator Role
 * A **Deploy User** is associated with an **OpCon User** when performing tasks that require access to OpCon Systems
 
-### Deploy Roles
+## Roles
 
 * **Administration:** Users has access to Administration rights and all OpCon Systems
 * **All:** Users has access to all OpCon Systems
@@ -35,7 +34,7 @@ hide_title: 'false'
 
 * The User Management Screen allows User Definitions to be created, updated, or removed
 * When defining a User:
-  * Insert a Unique **User Name**
+  * Insert a unique **User Name**
   * A **Description** for the User
   * Insert a **Password**
   * Select a **Role**

@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Exercise 15'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 15: Steps to Browse After Deployments

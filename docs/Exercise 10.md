@@ -1,23 +1,23 @@
 ---
 sidebar_label: 'Exercise 10'
-hide_title: 'false'
 ---
 
 ## Deploy Exercise 10: Steps to Create a Package
 
 ### Objective
 
-Use the **Administration User** Login to Create a Package in the Deploy Client
-  
-  - Create a Package named **Congo HR Package**
-    - Use the **HR Import** and **HR Import Processing** Schedules in the Package
-  - Verify that the Package has been created in the **View or Edit Packages** Screen
+* Use the **Administration User** Login to Create a Package in the Deploy Client
+  * Create a Package named **Congo HR Package**
+  * Use the **HR Import** and **HR Import Processing** Schedules in the Package
+  * Verify that the Package has been created in the **View or Edit Packages** Screen
 
 ### Instructions
 
 #### Create a Package Including All the Schedules Imported in Exercise 8 
 
 1.	Open the Deploy Client using the **Administration User**
+  * **User:** ```DeployTeamLead```
+  * **PWD:** ```deployadmin```
 2.  Go to the **Packages** section and click the **Manage** link to open the **View or Edit Packages** screen
 3.	Click the **Add** button
 4.	Enter a new Package name in the **Package Name** text box that will reflect the **HR** Schedules imported during Exercise 8 - **Congo HR Package**

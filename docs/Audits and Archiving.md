@@ -1,13 +1,10 @@
 ---
 sidebar_label: 'Audits And Archiving'
-hide_title: 'false'
 ---
 
-## Deploy Administration - Auditing & Archiving
+## Overview
 
-### Auditing
-
-* OpCon Deploy includes an Audit Capability that captures messages when operations are performed
+* Deploy includes an Audit Capability that captures messages when operations are performed
 * These messages include:
   * User
   * Description of Message Capture
@@ -15,6 +12,8 @@ hide_title: 'false'
 * The messages are written into the Audit Table and can be viewed by any Administration Role
 
 ![Deployimg013](../static/imgdeploy/Deployimg013.png)
+
+## Auditing
 
 * **Audit Categories**
   * Deployment
@@ -31,7 +30,7 @@ hide_title: 'false'
   * Message Content
   * Date Range
 
-### Archiving
+## Archiving
 
 * To maintain performance, it is necessary to perform archiving of unused Schedule, Package, and Transformation Rule Versions
   * The **Number of Versions to keep** setting defines how many version to keep
@@ -39,7 +38,7 @@ hide_title: 'false'
 * The **Archive process** moves Definitions from the **Main Tables** to **Archive Tables**
 * During the Archiving process, some of the data is normalized and stored in a string of comma separated Record IDs.
 
-### Deploy_Utilities Schedule
+## Deploy_Utilities Schedule
 
 * The Archiving Process is performed by three programs executed from the **DEPLOY_UTILITIES** Schedule
 * **ArchiveP.SMAOpConDeployClient.exe**
