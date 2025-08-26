@@ -6,46 +6,72 @@ sidebar_label: 'Exercise 14'
 
 ### Objective
 
-Using the **Administration User** Log in, Batch Deploy a Schedule and Verify the Results
+Schedule a Batch Deployment
 
-* Batch Deploy the **Congo Inventory Management** Schedule to the ```OpCon-QA``` Server
-  * Use the ```Dev-to-QA-Machines``` Transformation Rule
-* Verify that the Jobs in the Schedule have the correct Machine assigned
+### Summary
+
+Using the **Administration User** schedule a batch deployment for multiple schedules. Then verify the deployment results by utilizing Enterprise Manager.
 
 ### Instructions
 
-#### This exercise will select a schedule to be deployed and set a batch deployment to run at a specific date and time
+1.	In **Deploy**, in the **Deployments** section, click **Deploy** 
+2. In the **Select a Deployment Type** window, click on the **Schedule** button
+3. In the **Select a Schedule to Deploy** window, click **Refresh** 
+4. In the **Schedule List**, select **Congo Inventory Management**
+5. In the **Version** section, select the **latest version**
+6.	Click **Next**
+7.	In the **Select a Server** screen, select **OpCon-QA** from the dropdown
+8.	Click **Next** 
+9. In the **Select transformation Rules** screen, Click **Refresh**
+10. Expand the **Dev-to-QA-Machines** rule using the **>**
+11. Double click the **Latest Version** of the rule to move it to the bottom of the screen
+12. Click **Next** to see how the **transformation** will be applied during **Deployment**
+13.	Click **Simulate**
+14. Check the **Result of the Simulation** for any errors
+15.	Click **Close**
+16.	Click **Batch Deploy**
+17. In the **Additional information for Batch Deployment** popup, set the **Date** and **Time** for the Deployment to run
+  * Use **today's date** and leave the **time at 00:00**
+18. Enter in the **DeployTeamLeader** password, ```deployadmin```
+19. Click **OK**
+20. Confirm the deployment by clicking **OK**
+21.	A **Batch Deployment** popup will state **"The Schedule has been scheduled for batch deployment successfully”**  
+22. Click **OK** 
+23.	Repeat **Steps 2-22** to Deploy the **Congo Payroll Payments** and the **Congo Inventory Reports** Schedules
+24. Stay logged in as **aDeployTeamLeader** for the next exercise.
 
-1.	Open the Deploy Client using the **Administration User**
-  * **User:** ```DeployTeamLead```
-  * **PWD:** ```deployadmin```
-2.	Go to the **Deployments** section and click on the **Deploy** link to open the **Select a Deployment Type** window
-3.	Click on the **Schedule** button to open the **Select a Schedule to Deploy** window
-4.	Select the Schedule ```Congo Inventory Management``` - Available Versions for that Schedule will appear in the bottom half of the screen
-5.	Select the Latest Version available and click the **Next** button
-6.	This will open the **Select a Server** screen
-7.	Select the ```OpCon-QA``` Server from the **Select OpCon Server** dropdown list
-8.	Click the **Next** button to advance to the **Select transformation Rules** screen
-9.	Select the Latest Version of the ```Dev-to-QA-Machines``` Transformation Rule and move it to the lower half of the screen by Double-Clicking on it or by using the arrows between the screen halves
-10.	Click the **Simulate** button and check the **Result of the Simulation** for errors
-11.	Close the Result of the Simulation screen by clicking the **Close** button
-12.	Click the Batch Deploy button to open the Additional information for Batch Deployment screen
-13.	Select the **Date** and **Time** for the Deployment to run
-:::caution Note
-Use today's date (Not a future date) - Do Not enter a time (It will default to 00:00)
+
+#### Validate Deployment in Enterprise Manager
+
+25. Log into **OpCon-QA Environment** with **Enterprise Manager**
+  * **User:** ```ocadm```
+  * **PWD:** ```opconxps```
+26. In the **Navigation Panel** double-click **Schedule Master** 
+27. Select the **Congo Inventory Management** schedule from the dropdown
+28. Open the **Deploy Info** tab and review the information
+
+:::note
+
+* You should see the following:
+  * Version: #
+  * Description: 
+  * Record Id: #
+  * Deployed: DeployTeamLeader (yyyy-mm-dd hh:mm:ss)
+
 :::
-14.	Enter the current user's **User Password** in the **Password** text box 
-15.	Click the **OK** button to receive a selection confirmation - Click **OK** to proceed with Deployment
-16.	A **Batch Deployment** popup will state **"The Schedule has been scheduled for batch deployment successfully”**  
-17. Click the **OK** button to close the popup 
-18.	Now repeat the steps **2** to **16** to Deploy the **Congo Payroll Payments** Schedule and the **Congo Inventory Reports** Schedule
-19.	Using EM connect to the ```OpCon-QA``` Environment and verify that the Schedule Master record was updated for the **Congo Inventory Management** and the **Congo Payroll Payments** Schedules
-20.	Now open the **Job Master** screen to view the jobs in the **Congo Inventory Management** Schedule 
-21. Edit the Jobs in this Schedule and check that the Machine is correct, the Windows Jobs should be using the ```OpCon-QA``` Machine and the **Inventory Purchase Report** Job should be running on the Machine ```Susevm``` (These Machine Names should have been changed as part of the Transformation Rules)
-22.	Once the check is completed completed, close Enterprise Manager
+
+29. Close the **Schedule Master** tab
+30. In the **Navigation Panel** double-click **Job Master** 
+31. In the **Schedule** dropdown, select the **Congo Inventory Management**
+32. In the **Job** dropdown, select **Legos**
+33. Validate that the **Primary Machine** dropdown shows ***OpCon-QA**.
+34. In the **Job** dropdown, select **Inventory Purchase Report**
+35. Validate that the **Primary Machine** dropdown shows ***Susevm**.
+36. Close the **Job Master** tab
+37. Close out of Enterprise Manager 
 
 :::info Video Walkthrough
 
-[Batch Deployment](../static/imgdeploy/Deploy_BatchDeployment.mp4)
+[Batch Deployment](../static/imgdeploy/Deploy_BatchDeployment.mp4) 
 
 :::

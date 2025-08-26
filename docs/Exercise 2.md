@@ -2,15 +2,15 @@
 sidebar_label: 'Exercise 2'
 ---
 
-## Deploy Exercise 2: Define Servers In Deploy
+## Deploy Exercise 2: Deploy Servers
 
 ### Objective
 
-Create four server connections within Deploy
+Define Servers within Deploy.
 
 ### Summary
 
-Using the Deploy UI, define four servers, a **Quality Assurance** server, a **Development** server, a **Production** server, and a **Batch Schedule Server**. Each will have a **unique name** and **ports** in order for Deploy to establish connections to each of the OpCon environment.
+Using the Deploy UI, define four servers: a **Quality Assurance** server, a **Development** server, a **Production** server, and a **Batch Schedule Server**. Each will have a **unique name** and **ports** in order for Deploy to establish connections to each of the OpCon environments they represent.
 
 ### Instructions
 
@@ -23,7 +23,7 @@ If any connection test is **unsuccessful**, please let the instructor know.
 #### Define the Quality Assurance Server
 
 1.	Open the Deploy client and log in in with the User you just created that had **Administration Privileges**
-  * **User:** ```DeployTeamLead```
+  * **User:** ```DeployTeamLeader```
   * **PWD:** ```deployadmin```
 2.	Under the **Administration** section click on Servers to open the **Server Management** screen
 3.	Click the **Add** button
@@ -85,6 +85,8 @@ The port information for BatchScheduleServer will be the same as the OpCon-Prod 
 44. Check that the checkbox for **Using TLS** is selected
 45. Click the **Test Server Connection** button
 46. If the server connections was **successful** click **Save**
+47. Click **Close**.
+48. Stay logged in as **DeployTeamLeader** for the next exercise.
 
 :::info Video Walkthrough
 

@@ -2,45 +2,45 @@
 sidebar_label: 'Exercise 8'
 ---
 
-## Deploy Exercise 8: Steps to Import A Schedule
+## Deploy Exercise 8: Schedule Import Function
 
 ### Objective
 
-Import 5 Schedules from the ```OpCon-Dev``` Server
+Import Schedules into Deploy
 
-* Import the following Schedules:
-  
-  * **Congo Payroll Payments**
-  * **Congo Inventory Management**
-  * **HR Import Processing**
-  * **HR Import**
-  * **Congo Inventory Reports**
+### Summary
+
+Using the **Import** option in the **Schedule** section, import five Schedules from the **OpCon-Dev** Server
 
 ### Instructions
 
 #### Import Schedules from the OpCon-Training Environment
 
-1.	Open the Deploy Client using the **Windows Authentication** login
-  * **User:** ```az-win10-deploy\SMAUSER```
-2.	Go to the **Schedules** section and click on the **Import** link - This should open the **Select a Server** screen
-3.	From the **Select OpCon server** dropdown list select the ```OpCon-Dev``` Server
-4.	Click the **Next** button to open the **Select a Schedule to Import** screen
-5.	From the list of Schedules on the left of the screen select the following Schedules and move them to the right of the screen:
+1.  In the **Schedules** section, click on the **Import** option
+2.  In the **Select OpCon server** dropdown, select the ```OpCon-Dev``` Server
+3.  Click the **Next** button 
+4.  On the **Select a Schedule to Import** screen, holding the CNTL key down, select the following four Schedules on the left side of the window:
+  * Congo Inventory Management 
+  * Congo Inventory Reports
+  * Congo Payroll Payments
+  * HR Import 
+5.  Click the **>** button to move the schedule to the right side of the window.
+6.  Click the **Next** button
+7.  On the **Summary** screen: 
+  * Validate that the correct Server is selected in the **OpCon Server** field
+  * Select the **Include Sub-Schedules** checkbox
+  * Validate that the **five schedules** listed in the **Schedule** section
 
-```
-Congo Payroll Payments
-Congo Inventory Management 
-HR Import Processing
-HR Import 
-Congo Inventory Reports
-``` 
+:::note
 
-6.	Click the **Next** button to open the Summary screen 
-7.  Check that the Schedules selected are visible in the **Schedule** section and that the correct Server is selected in the **OpCon Server** section
-8.	Click the **Back** button to go back to the **Select a Schedule to Import** screen
-9.	Click the **Finish** button
-10.	On the **Review Result of Check-In** screen, confirm the correct number of Schedules were imported and that the Status of each is listed as **SUCCESS**
-11.	Click the **Close** button
+Five schedules were imported because **HR Import** contains a sub-schedule, **HR Import Processing**, and we **Included Sub-Schedules** in the** Summary** screen.
+
+:::
+
+8.	Click the **Finish** button
+9.	In the **Review Result of Check-In** window, confirm the correct number of Schedules were imported and that the Status of each is listed as **SUCCESS**
+10.	Click the **Close** button
+11. Stay logged in as **az-win10-deploy\SMAUSER** for the next exercise.
 
 :::info Video Walkthrough
 

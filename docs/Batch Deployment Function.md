@@ -2,19 +2,17 @@
 sidebar_label: 'Batch Deployment Function'
 ---
 
-## Batch Deployments
-
-![Deployimg069](../static/imgdeploy/Deployimg069.png)
-
-###### (Click Images to Enlarge)
-
-![Deployimg070](../static/imgdeploy/Deployimg070.png)
+## Overview
 
 * Batch Deployment provides the capability to Schedule Deployment functions into the future using the ```Batch.SMAOpConDeployClient``` Program
   * Requires that the ```BatchScheduleServer``` is configured correctly in OpCon Deploy
   * The ```BATCH_DEPLOY``` Schedule has been deployed to the ```BatchScheduleServer```
   * Required Properties must be set correctly
   * The OpCon Deploy Client software has been installed on the ```BatchScheduleServer```
+
+![Deployimg069](../static/imgdeploy/Deployimg069.png)
+
+![Deployimg070](../static/imgdeploy/Deployimg070.png)
 
 * Uses the OpCon ```RestAPI``` to check the ```BATCH_DEPLOY``` Schedule is available in the Daily Tables for the required Date
   * If there is no Schedule in the Daily Tables for the required Date, the OpCon ```RestAPI``` will perform a Schedule Build of the ```BATCH_DEPLOY``` Schedule for the required Date
