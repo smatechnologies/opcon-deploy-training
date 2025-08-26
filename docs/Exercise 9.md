@@ -2,32 +2,34 @@
 sidebar_label: 'Exercise 9'
 ---
 
-## Deploy Exercise 9: Steps to View a Schedule Stored in Deploy
+## Deploy Exercise 9: Script Browse Function
 
 ### Objective
 
-Use the ```Windows Authentication User``` to Browse Imported Schedules in the Deploy Client
+Use the Browse Function in the Schedule section.
 
-- Open the JSON Definition File for the **HR Import** Schedule
-- Search for the word **name** within the file
-- Choose one for keyword to search for practice
+### Summary
+
+Use the **Windows Authentication User** to Browse Imported Schedules and view the Schedule in JSON format.
 
 ### Instructions
 
-#### Test the Schedule Browse Function by Browsing a Recently Imported Schedule
-
-1.	Open the Deploy Client using the **Windows Authentication** login
-  * **User:** ```az-win10-deploy\SMAUSER```
-2.	Go to the **Schedules** section and click on the **Browse** link - This will open the **Browse and Filter Schedules Imported** screen. *(You may need to click the REFRESH button to view the Schedules)*
-3.  Note the **Name** text box that can be used to filter the list of Schedules
-4.	Now click the ```>``` next to the **HR Import** Schedule to expand the list of Versions of this Schedule that are available
-5.	Right-Click the latest Version of the **HR Import** Schedule and select **View Definition**
-6.	The Definition of **[HR Import]** screen will open to show the **JSON** format of all the information of the Schedule
-7.	Type name in the filter text box and press Enter - Note the first occurrence of name will be highlighted in blue
-8.  At the right end of the text box, you will note 1 of x and some arrows that will help you navigate through the document according to the filter you have entered
-9.	Now put a new selection in the filter text box and test the filter action for yourself
-10.	When you have finished your activities click the **Close** button to close this window
-11.	Now click the **Close** button to close out the **Browse and Filter Schedules Imported** screen
+1.	Click on the **Browse** option in the **Schedules** section  
+2. On the **Browse and Filter Schedules Imported** screen, click **Refresh**
+3. Click the ```>``` next to the **HR Import** schedule to expand the list of Versions of this Schedule that are available
+4.	Right-Click the latest version of the **HR Import** schedule and select **View Definition**
+5.	The schedule will open in **JSON** format
+6.	In the filter box at the top of the screen, type ```name``` and press Enter 
+  * _Note the first occurrence of name will be highlighted in blue_
+7. To the right of the text box, you will note **1 of 16** and navigation arrows that will help you navigate through the document according to the filter you have entered
+8.	Now enter a new selection in the filter text box and test the filter action for yourself
+  * Some options:
+    * frequency
+    * command
+    * start
+9.	Click **Close**
+10.	Click **Close**
+11. Log out of Deploy
 
 :::info Video Walkthrough
 

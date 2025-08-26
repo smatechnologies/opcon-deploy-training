@@ -6,41 +6,33 @@ sidebar_label: 'Deploy Lab'
 
 ### Objective
 
-* During this **LAB**, use the **Administration User**
+Deploy schedules that have been changed in the OpCon-QA environment into Production.
 
-At the start of the exercises from this training: 
+### Summary
 
-* **Congo Online Retail** Schedules created in the ```OpCon-Dev``` Environment were moved to the ```OpCon-QA``` Environment 
+Using the **Administration User**, make modifications to the jobs in the **Congo Inventory Report** schedule to have a new value for the **-t parameter** in the QA Environment and **import** the schedule into Deploy. Then deploy the schedule into **OpCon-Prod** using a **Transformation Rule** that will **update** the command line, start time, and machine name of the jobs.
 
-* As part of this **LAB**, various changes will be made to the ```OpCon-QA``` Environment 
-    * These changes will be imported back into the **Deploy** database and deployed to the ```OpCon-Prod``` Environment on the ```OpConBatchDB``` Machine Name
-    * During the deployment process, further changes will be made via a Transformation Rule and AutoBuild options for **Production**
- 
 :::note
 
-Remember that in this ecosystem, the ```OpCon-Prod``` Environment in Enterprise Manager uses the same **Machine Name** as the ```BatchScheduleServer```, which is ```OpConBatchDB```
+The **OpCon-Prod Environment** in Enterprise Manager uses the same **Machine Name** as the ```BatchScheduleServer```, which is ```OpConBatchDB```
 
-(So when a Transformation Rule is made, it should read as ```OpCon-QA``` ---> ```OpConBatchDB```)
+(So when a Transformation Rule is made, it should read as ```OpCon-QA``` &rarr; ```OpConBatchDB```)
 
 :::
 
 ### Lab Instructions
 
-* Change the Jobs in the ```OpCon-QA``` environment using Enterprise Manager such that the  **Congo Inventory Reports** jobs: **Legos**, **Levis**, **Nerf**, **Nike**, **Smartphones** and **Xbox** all use the parameter ```-t25``` on the command line
-    * Import the changed Schedule into the **Deploy** database so the newer Version can be deployed to the ```OpCon-Prod``` Environment on the ```OpConBatchDB``` Machine Name
-
-* Use a **Transformation Rule** to change all command lines with a parameter of ```-t25``` to ```-t20``` 
+* In the ```OpCon-QA``` environment using Enterprise Manager modify the **Congo Inventory Reports** jobs: **Legos**, **Levis**, **Nerf**, **Nike**, **Smartphones** and **Xbox** to use the parameter ```-t25``` in the command line
+  * Import the changed Schedule into the **Deploy** database so the newer Version can be deployed to the ```OpCon-Prod```
+* Use a **Transformation Rule** to change:
+  * The command lines with a parameter of ```-t25``` to ```-t20``` 
     * Jobs in the **Congo Inventory Reports** Schedules have this parameter
-
-* Ensure that all the Windows Jobs on the **Congo Inventory Reports** Schedule have the Machine Name changed to ```OpConBatchDB```
-
-* On the ```OpCon-Prod``` System, the Jobs in the **Congo Inventory Reports** Schedule may not start until ```7:00 AM``` 
-    * Change the Jobs using Enterprise Manager 
-    * Import the changed Schedule into the Deploy database so the newest Version can be deployed to the ```OpCon-Prod``` Environment on the ```OpConBatchDB``` Machine Name
-
-* Change the **AutoBuild Schedule Details** in the Deployment details so that the Schedule builds ```3 Days in Advance for 1 day```
-
-* Once Deployed, use **Enterprise Manager** on the ```OpCon-Prod``` Connection Profile to ensure all changes have been made as expected
+  * The windows machine name from ```OpCon-QA``` to ```OpConBatchDB```
+  * The schedule starts at **7:00 AM**
+* Ensure that Auto Build is set to ```3 Days in Advance for 1 day``` when it is deployed
+* Once the Deploy is successful, use **Enterprise Manager** to connect to the ```OpCon-Prod``` environment to ensure all changes have been made as expected
+  * **User Name:** ```ocadm``` 
+  * **Password:** ```opconxps```
 
 :::info Video Walkthrough
 

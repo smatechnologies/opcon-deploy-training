@@ -2,35 +2,36 @@
 sidebar_label: 'Exercise 11'
 ---
 
-## Deploy Exercise 11: Steps to Set Up a Transformation Rule
+## Deploy Exercise 11: Transformation Rules
 
 ### Objective
 
-Use the **Windows Authentication** login to Create Transformation Rules in the Deploy Client
+To create a Transformation Rule
 
-* *Create a Rule named ```Dev-to-QA-Machines```
-* Within the Rule, create two ```Job: Machine Name``` Transformations
-  * Transform the ```OpCon-Dev``` machine to ```OpCon-QA```
-  * Transform the ```Susevm1``` machine to ```Susevm```
+### Summary
+
+Use the **Windows Authentication** login to Create Transformation Rules in Deploy that will modify the **Machines** when a deployment occurs.
 
 ### Instructions
 
-#### Create a simple Transformation Rule that will allow you to change Machine Names in Jobs from Schedules imported from the OpConTraining Environment to Machines available in the OpCon-Dev Environment when Deploying to the OpCon-Dev Environment
+1.	On the Login screen, check **Use Windows Authentication** 
+2.  Click **Login**
+3. Click on the **Create/Edit** option in the **Transformation Rules** section
+4.	Click **Add**
+5.	In the **Name** field, enter ```Dev-to-QA-Machines```
+6.	In the **Description** field, enter ```Will convert the Machines Names in the Dev Env to correct names for the QA Env```
+7.	In the **List of Transformation** section, click the **green +** button
+8. In the **Create or Edit a Transformation** screen,
+  * In the **Tag ID** dropdown, select **Job: Machine Name**
+  * In the **Current Value** textbox enter ```OpCon-Dev```
+  * In the **New Value** text box enter ```OpCon-QA```
+  * Click the **Save** button
+9.	Repeat the Step 8 to add a rule to change the **Susevm1** machine name to **Susevm**
+10.	Click **Save**
+11.	Click **Close**
+12. Stay logged in as **az-win10-deploy\SMAUSER** for the next exercise.
 
-1.	Open the Deploy Client using the **Windows Authentication** login
-  * **User:** ```az-win10-deploy\SMAUSER```
-2.  Click on the **Create/Edit** link in the **Transformation Rules** section
-3.	Select the **Add** button to enable the ability to enter information into the various text boxes
-4.	Give the Transformation Rule a name by typing ```Dev-to-QA-Machines``` in the **Name** text box
-5.	Add a description such as, **Will Convert the Machines Names in the Dev Env to Correct Names for the QA Env**, to the Description text box
-6.	To add the list of Transformations, click the green ```+``` button - This will open the **Create or Edit a Transformation** screen
-7.	From the **Tag ID** dropdown list select **Job: Machine Name**
-8.	In the **Current Value** textbox enter ```OpCon-Dev```
-9.	In the **New Value** text box enter ```OpCon-QA```
-10.	Click the **Save** button
-11.	Now add a second transformation that will transform the Machine Name in Jobs that have a Machine Name of ```Susevm1``` to the Machine Name available in the ```OpCon-QA``` Environment which is ```Susevm```
-12.	Once the second Transformation has been created, click the **Save** button on the **View or Edit Transformation Rules** screen to save this new Rule
-13.	Click the **Close** button to close out this screen
+
 
 :::info Video Walkthrough
 

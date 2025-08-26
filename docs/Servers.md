@@ -45,6 +45,15 @@ sidebar_label: 'Servers'
 
 ![Deployimg008](../static/imgdeploy/Deployimg008.png)
 
+## Batch Schedule Server
+
+![Deployimg011](../static/imgdeploy/Deployimg011.png)
+
+* The BatchScheduleServer is a special server Definition used to drive Batch Deployment
+* Deploy uses the OpCon-API to add a Job to the BATCH-DEPLOY Schedule to perform future deployment
+* Deploy will also ensure that a BATCH-DEPLOY Schedule is available for the required day
+  * If a Schedule is not available for the required day, a Schedule Build will be submitted
+
 ## SAP Server Support
 
 * If the environment contains SAP R3 Systems and automated linking of OpCon SAP Job Definitions to SAP Jobs in required, SAP Systems must be defined
@@ -59,12 +68,3 @@ sidebar_label: 'Servers'
 ![Deployimg009](../static/imgdeploy/Deployimg009.png)
 
 ![Deployimg010](../static/imgdeploy/Deployimg010.png)
-
-## Batch Schedule Server
-
-![Deployimg011](../static/imgdeploy/Deployimg011.png)
-
-* The BatchScheduleServer is a special server Definition used to drive Batch Deployment
-* Deploy uses the OpCon-API to add a Job to the BATCH-DEPLOY Schedule to perform future deployment
-* Deploy will also ensure that a BATCH-DEPLOY Schedule is available for the required day
-  * If a Schedule is not available for the required day, a Schedule Build will be submitted

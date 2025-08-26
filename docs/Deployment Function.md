@@ -2,17 +2,17 @@
 sidebar_label: 'Deployment Functions'
 ---
 
-## Deployment - Schedule
-
-![Deployimg056](../static/imgdeploy/Deployimg056.png)
-
-### Deploying a Schedule
+## Overview
 
 * The Deploy Process allows a User to:
   * Select a Schedule or Package to Deploy
   * Deploy the selection to available OpCon Systems
   * Add Transformation Rules
   * Determine if a Deployment, Simulation, or Batch Deployment must be performed
+
+![Deployimg056](../static/imgdeploy/Deployimg056.png)
+
+## Deploy a Schedule
 
 * Once the Deploy Icon has been selected on the Main Menu Screen, the **Select a Deployment Type** Dialog Screen appears
 
@@ -55,7 +55,7 @@ sidebar_label: 'Deployment Functions'
     * If SAP R3 Job Definitions are encountered in the System, they will be created in the SAP System and the OpCon SAP Job and SAP Job will be linked
     * If the option is not selected but SAP R3 Job Definitions are encountered, the System will link the OpCon SAP Job and the SAP Job
 
-### Deploying a Package
+## Deploy a Package
 
 ![Deployimg057](../static/imgdeploy/Deployimg057.png)
 

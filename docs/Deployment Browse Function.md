@@ -2,7 +2,7 @@
 sidebar_label: 'Deployment Browse Function'
 ---
 
-## Deployment - Browse Function
+## Overview
 
 * The Browse Function makes it possible for OpCon Deploy Users to view information about Deployments
 

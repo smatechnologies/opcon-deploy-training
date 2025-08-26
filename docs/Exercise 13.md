@@ -6,43 +6,72 @@ sidebar_label: 'Exercise 13'
 
 ### Objective
 
-Deploy a Package to the ```OpCon-QA``` Environment with the **Administration User**
+Deploy a Package
 
-- Deploy the ```Congo HR Package``` to the ```OpCon-QA``` Server
-- Include the ```Dev-to-QA-Machines``` Transformation Rule 
-- Check the Simulation of the Deployment
-- Complete the Deployment 
+### Summary
 
-Log In to Enterprise Manager with the ```OpCon-QA``` Environment to: 
-
-- Check that the Deployment occurred 
-- Check that the Transformation Rules were applied
+Use the Deploy function to deploy a Package to the **OpCon-QA Environment** using the **Administration User**. Then verify the deployment results by utilizing Enterprise Manager.
 
 ### Instructions
 
-1.	Open the Deploy Client using the **Administration User**
-  * **User:** ```DeployTeamLead```
+#### Deploy a Package
+
+1.  Open the Deploy Client using the **Administration User**
+  * **User:** ```DeployTeamLeader```
   * **PWD:** ```deployadmin```
-2.	Go to **Deployments** and click the **Deploy** link to open the **Select a Deployment Type** window
-3.	Click on the **Package** button to open the **Select a Package to Deploy** window *(You may need to click the REFRESH button to view the Packages)*
-4.	Click on the Package you created previously - ```Congo HR Package``` - it should be visible in the **Package List**
-5.	This will display the Versions of this Package in the lower half of the screen
-6. Select the **Latest Version** and click the **Next** button - This will open the **Select a Server** screen
-7.	From the **Select OpCon Server** dropdown select the ```OpCon-QA``` Server
-8.	Click the **Next** button to advance to the **Select Transformation Rules** screen
-9.	Select the **Latest Version** of the ```Dev-to-QA-Machines``` Transformation Rule and move it to the lower half of the screen - This can be done by Double-Clicking or by using the arrows between the screen halves *(You may need to click the REFRESH button to view Transformation Rules)*
-10.	Click the **Simulate** button - This will open the **Results of Simulation** screen, displays any warnings or errors 
-:::note Note
+2.  In the **Deployments** section, click the **Deploy** option
+3.  In the **Select a Deployment Type** window, click the **Package** button 
+4.  In the **Select a Package to Deploy** window, click **Refresh**
+5.  In the **Package List** section, select the **Congo HR Package**
+6.  In the **Version** section, select **latest version** of the **Congo HR Package**
+7.  Click **Next**
+8.  In the **Select a Server** screen, select the ```OpCon-QA``` from the dropdown
+9.  Click **Next** 
+10. In the the **Select Transformation Rules** screen, click **Refresh**
+11. Expand the **Dev-to-QA-Machines** rule using the **>**
+12. Double click the **Latest Version** of the rule to move it to the bottom of the screen
+13. Click **Next** to see how the **transformation** will be applied during **Deployment**
+14. Click **Simulate**
+15. Review **Result of Simulation** screen for possible errors
+
+:::note
+
 _If there are warnings or errors this will be indicated in red at the top of the screen_
+
 :::
-11.	After checking for any possible errors, click the **Close** button to close the screen
-12.	Click the **Deploy** button to Deploy the Package to the ```OpCon-QA``` Server
-13.	A popup message will display confirming the Package Name to be Deployed and the Server on which it should be Deployed - If these details are correct, click the **OK** button
-14.	Once the Deployment has completed, log in to EM with the ```OpCon-QA``` System
-15.	Open the **Schedule Master** screen and select each of the Schedules from the Package in turn, ```HR Import``` and ```HR Import Processing``` 
-16. Once you have a Schedule selected, open the **Deploy Info** tab and review the information - You should see the Version of the Schedule that was Deployed, as well as your User ID information
-17.	Open the **Job Master** screen to view the jobs in the ```HR Import``` and ```HR Import Processing``` Schedules
-18. Edit the Jobs in these Schedules and check that the Machine is correct - the Windows Jobs should be using the ```OpCon-QA``` Machine (These Machine Names should have been changed as part of the **Transformation Rules**)
+
+16. Click **Close** 
+17. Click **Deploy** 
+18. Click **OK** on the popup window confirming the Package Name to be Deployed
+19. Stay logged in as the **DeployTeamLeader** for the next exercise
+
+#### Validate Deployment in Enterprise Manager
+
+20. Log into **OpCon-QA Environment** with **Enterprise Manager**
+  * **User:** ```ocadm```
+  * **PWD:** ```opconxps```
+21. In the **Navigation Panel** double-click **Schedule Master** 
+22. Select the **HR Import** schedule from the dropdown
+23. Open the **Deploy Info** tab and review the information
+
+:::note
+
+* You should see the following:
+  * Version: #
+  * Package: PackageName : version #
+  * Description: 
+  * Record Id: #
+  * Deployed: DeployTeamLeader (yyyy-mm-dd hh:mm:ss)
+
+:::
+
+24. Close the **Schedule Master** tab
+25. In the **Navigation Panel** double-click **Job Master** 
+26. In the **Schedule** dropdown, select the **HR Import**
+27. In the **Job** dropdown, select **Create HR Files**
+28. Validate that the **Primary Machine** dropdown shows ***OpCon-QA**.
+29. Close the **Job Master** tab
+20. Minimize Enterprise Manager 
 
 :::info Video Walkthrough
 

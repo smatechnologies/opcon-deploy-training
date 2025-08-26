@@ -2,33 +2,31 @@
 sidebar_label: 'Exercise 3'
 ---
 
-## Deploy Exercise 3: Deploy Preferences
+## Deploy Exercise 3: Deploy Settings
 
 ### Objective
 
-Check and update Deploy preferences
+Configure Settings and Rules for Deploy.
 
 ### Summary
 
-Configure Deploy to retain ```5``` version and prevent the updating of **Global Properties**, **Schedule Instance Properties**, **Thresholds**, and **Resources**. You will also **prevent deletion** of schedules from development systems after an **Import** is performed.
+Configure the **Settings** of Deploy to define how many **Versions** of the **Scripts, Packages and Transformation Rules** we will retain before **Archiving**. Configure the **Rules** of Deploy to determine how data is handled during the import and deployment process.
 
 ### Instructions
 
 #### Configure Settings
 
-1.	Open the Deploy Client using the **Administration User**
-  * **User:** ```DeployTeamLead```
-  * **PWD:** ```deployadmin```
-2.	Under the **Administration** section, click **Settings**
-3.	Set the **Number of Versions to Retain** to ```5```
+1.	Under the **Administration** section, click **Settings**
+2.	Set the **Number of Versions to Retain** to ```5```
 
 #### Configure Rules
 
-4.	Uncheck the **Update Properties Allowed** checkbox
-5.	Uncheck the **Update Variables Allowed** checkbox
-6.  Uncheck the **Update Schedule Instance Properties Allowed** checkbox
-7.  Uncheck the **Delete Schedule from Development System After Import** checkbox
-7.	Click the **Save** button to save changes to the **Global Preferences**
+3.	Uncheck the **Update Properties Allowed** checkbox
+4.	Uncheck the **Update Variables Allowed** checkbox
+5.  Uncheck the **Update Schedule Instance Properties Allowed** checkbox
+6.  Uncheck the **Delete Schedule from Development System After Import** checkbox
+7.	Click the **Save**
+8.  **Log out** of Deploy
 
 :::info Video Walkthrough
 

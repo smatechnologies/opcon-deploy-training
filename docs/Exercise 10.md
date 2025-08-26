@@ -6,28 +6,37 @@ sidebar_label: 'Exercise 10'
 
 ### Objective
 
-* Use the **Administration User** Login to Create a Package in the Deploy Client
-  * Create a Package named **Congo HR Package**
-  * Use the **HR Import** and **HR Import Processing** Schedules in the Package
-  * Verify that the Package has been created in the **View or Edit Packages** Screen
+Create a Package
+
+### Summary
+
+* Use the **Administration User** to create a **Package** in Deploy that contains a **Main Schedule** and a **Sub-Schedule**.
 
 ### Instructions
 
-#### Create a Package Including All the Schedules Imported in Exercise 8 
-
-1.	Open the Deploy Client using the **Administration User**
-  * **User:** ```DeployTeamLead```
+1.	Log into Deploy using the **Administration User**
+  * **User:** ```DeployTeamLeader```
   * **PWD:** ```deployadmin```
-2.  Go to the **Packages** section and click the **Manage** link to open the **View or Edit Packages** screen
-3.	Click the **Add** button
-4.	Enter a new Package name in the **Package Name** text box that will reflect the **HR** Schedules imported during Exercise 8 - **Congo HR Package**
-5.	Enter a description in the **Description** text box: **Schedules for Congo HR Processing**
-6.	Now click the **Edit** button at the right of Schedules to open the **Select One or More Schedules** screen
-7.	Expand the **HR Import** and **HR Import Processing** Schedules imported during exercise 8 and move the latest Version of each of these Schedules to the bottom half of the screen *(You may need to click the REFRESH button to view the Schedules)*
-8.  Click the **Close** button
-9.	Click the **OK** button
-10. Click the **Save** button
-11.	The new Package can now be seen in the **View or Edit Packages** screen - After checking this, click the **Close** button to close out this screen
+2. In the **Packages** section, click **Manage** 
+3. In the the **View or Edit Packages** screen,
+4.	Click **Add**
+5.	In the **View/edit package** section in the bottom half of the window
+  * In the **Package Name** field, enter ```Congo HR Package``` 
+  *	In the **Description** field, enter ```Schedules for Congo HR Processing```
+  * Click  **Edit** to the right of **Schedules** field
+    * Click **Refresh** on the window that pops up
+    * Double click **HR Import** and **HR Import Processing** to move them to the bottom section.
+    * Click the **OK** button
+  * Click the **Save** button
+  * Click the **Close** button
+In the **Packages** section, click **Manage** 
+6. In the the **View or Edit Packages** screen,
+7.	Click **Refresh** next to the **field** field
+8. In the **Select Package** section
+  * click the **Name** dropdown
+  * Verify that the **Congo HR Package** is listed
+  * Click **Close**
+9. Log out of Deploy.
 
 :::info Video Walkthrough
 

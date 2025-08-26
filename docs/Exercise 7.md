@@ -2,43 +2,67 @@
 sidebar_label: 'Exercise 7'
 ---
 
-## Deploy Exercise 7: Steps to Perform Script Deployment
+## Deploy Exercise 7: Script Deploy Function
 
 ### Objective
 
-Deploy Two Scripts (```Create_Folder``` and ```SetThreshold```) to the ```OpCon-QA``` Server
+Use the Script Deploy Function.
 
-- Verify first that two Scripts do not exist in the ```OpCon-QA``` Enterprise Manager profile
-- After Deployment, Verify that the two Scripts are now visible in the ```OpCon-QA``` Enterprise Manager profile
+### Summary
+
+Validate that the scripts inside of Deploy do **NOT** exist the OpCon-QA environment by using Enterprise Manager. Deploy the scripts to the ```OpCon-QA``` Server. Validate that the scripts inside of Deploy **DO** exist the OpCon-QA environment by using Enterprise Manager.
 
 ### Instructions
 
-#### Check the Scripts on the OpCon-Dev Environment and Deploy the Scripts to that Environment
+#### Validate Script Existence in EM
 
-1.	Open the Enterprise Manager using the profile for the ```OpCon-QA``` Environment
-2.	Go to the **Scripts** section and open the **Script Repository** window
-3.	Check if the ```Create_Folder``` and the ```SetThreshold``` Scripts exist
-4.	If they do exist, double click on each in turn to open the **Versions** window and make a note of how many versions exist for each
-5.	Now open the Deploy Client.
-6.	Go to the **Scripts** section and click on the Deploy link - This should open the **Select Scripts** window
-7.	You will notice the ```Create_Folder``` script listed in the top half of the screen - Click the ```>``` next to ```Create_Folder``` to show the available versions *(You may need to click the REFRESH button to view the Scripts)*
-8.	Right-Click the most recent version and select **View Script Content** - Once you have checked the contents of the Script click the **Close** button
-9.	Now Double-Click that version and note that it appears in the lower half of the screen
-10.	Now expand the versions below the ```SetThreshold``` Script that is in the top half of the screen
-11.	Click on the latest version of that Script and then click the **Down Arrow** between the two screen halves - Notice that version of the ```SetThreshold``` Script is pushed to the bottom half of the screen
-12.	Now click the double up arrow and notice that all the selected versions disappear from the bottom half of the screen
-13.	Now click the **Double Down Arrow** and this will return both the ```Create_Folder``` Script and the ```SetThreshold``` Script to bottom half of the screen
-14.	Click the **Next** button, this will open the **Select a Server** screen
-15.	Select the ```OpCon-QA``` server from the **Select OpCon Server** dropdown list
-16.	Click the **Next** button and you will notice the **Script Deployment** screen will open
-17.	You should be able to see the ```OpCon-QA``` server listed under Server although this will be greyed out
-18.	You should also see the two scripts ```Create_Folder``` and ```SetThreshold``` under **Scripts**, these will also be greyed out
-19.	Now click the **Finish** button
-20.	A popup message will be displayed alerting that **2 Scripts Will Be Deployed on the Server ```OpCon-QA```. Do you want to proceed with Deployment?** Click the **OK** button to execute the Deployment
-21.	Once the Deployment is finished a window will open called **Review Result of Deployment**. It should indicate that 2 Scripts have been Deployed with ```0``` failed. The Status column should indicate **SUCCESS**
-22.	Once you have checked, you can close this action out by clicking the **Close** button
-23.	Open Enterprise Manager using a profile that opens the ```OpCon-QA``` Environment 
-24. Go to the **Scripts Repository** and check for the expected Scripts and Version in the Repository
+1. Open the Enterprise Manager using the profile for the ```OpCon-QA``` Environment
+  * **Username:** ```ocadm```
+  * **Password:** ```opconxps```
+2. Go to the **Scripts** section and open the **Script Repository** window
+3. Validate that the **Create_Folder** and **SetThreshold** Scripts do **NOT** exist
+  * If they do exist, double click on each to open the **Versions** window and make a note of how many versions exist for each
+4. Close the **Script Repository** tab.
+5. **Minimize** Enterprise Manager.
+
+#### Deploy the Scripts
+
+6. Back in Deploy, go to the **Scripts** section and click on the **Deploy** option
+7. Click **Refresh** to list all the scripts that are in Deploy
+8. You will notice the scripts are listed in the top half of the screen
+9. Expand the **Create_Folder** by clicking the ```>``` next to the script to show the available versions
+10. Right-Click the most recent version and select **View Script Content**
+11. Click **Close**
+12. Now Double-Click that version and note that it appears in the lower half of the screen
+13. Now expand the ```SetThreshold``` script that is in the top half of the screen
+14. Click on the latest version of that Script and then click the **Down Arrow** to move the version to the lower half of the screen
+15. Now click the **Double Up Arrow** and notice that all the selected versions disappear from the bottom half of the screen
+16. Now click the **Double Down Arrow** and this will return both script's **Version 1** to bottom half of the screen
+17. Click the **Next** button
+18. On the **Select a Server** screen, select the ```OpCon-QA``` server from dropdown
+19. Click the **Next** button to open the **Script Deployment** screen
+
+:::note
+
+* You should be able to see the ```OpCon-QA``` server listed under Server although this will be greyed out. 
+* You should also see the two scripts ```Create_Folder``` and ```SetThreshold``` under **Scripts**, these will also be greyed out
+
+:::
+
+20. Now click the **Finish** button
+21. In the popup, click the **OK** button to execute the Deployment of the scripts
+22. In the **Review Result of Deployment** screen, you should see that two scripts have been Deployed with ```0``` failures and the Status column should say **SUCCESS**
+23. Click **Close** 
+24. Stay logged in as **az-win10-deploy\SMAUSER** for the next exercise.
+
+#### Validate Script Existence in EM
+
+25. Open Enterprise Manager from the Toolbar
+26. Go to the **Scripts** section and open the **Script Repository** window2
+27. Validate that the **Create_Folder** and **SetThreshold** Scripts **DO** exist
+  * Double click on each to open the **Versions** window and make a note of how many versions exist for each, it should match the number from the beginning of the exercise.
+28. Close the **Script Repository** tab.
+29. Close Enterprise Manager
 
 :::info Video Walkthrough
 

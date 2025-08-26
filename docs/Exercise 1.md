@@ -2,21 +2,23 @@
 sidebar_label: 'Exercise 1'
 ---
 
-## Exercise 1: Create User IDs
+## Exercise 1: Deploy Users
 
 ### Objective
 
-Create two Users within the Deploy Client.
+Create new User Accounts.
 
 ### Summary
 
-Using the Admin User, you will create two new users, an **Administrator User** and a **Non-Production User**. The Administrator, ```DeployTeamLead```, will have a password assigned to it, while the Non-Production user, ```az-win10-deploy```, will utilize Windows Authentication.
+Using the Admin User, you will create two new users, an **Administrator User** and a **Non-Production User**. The **Administrator** will have a **password assigned** to it while the **Non-Production user** will utilize **Windows Authentication**.
 
 ### Instructions
 
 #### Create A Windows Authentication User 
 
-1.	Open the Deploy client and log in using the **User Name** ```admin``` and with a **Password** of ```admin```
+1.	Open the Deploy client and log in using
+  * **User Name:** ```admin``` 
+  * **Password:** ```admin```
 2.	Under the **Administration** section click on **Users** to open the **User Management** screen
 3.	Click the **Add** button
 4.	In the **User Name** text box, enter ```az-win10-deploy\SMAUSER```
